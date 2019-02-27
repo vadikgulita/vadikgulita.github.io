@@ -10,12 +10,6 @@ a {
 li{
     list-style-type: none;
 }
-.clearfix:after{
-    content: '';
-    display: table;
-    width: 100%;
-    clear: both;
-}
 :active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
@@ -47,30 +41,29 @@ header {
     background: #1976d2;
     overflow: hidden;
 }
-.contact {
-    float: left;
-    padding: 26px 15px;
+.header_contacts {
+    display: flex;
 }
-.contact li {
-    float: left;
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
     color: #fff;
-    margin-right: 20px; 
+    padding: 26px 4px;
 }
 .contact a {
     color: #fff;
-    padding-right: 6px;
+    padding: 0 6px;
+    margin-right: 20px;
 }
 .social {
-    float: right;
-    margin: 22px 4px;
-}
-.social li{
-    float: left;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 .social a {
-    float: left;
     border-radius: 50%;
-    margin: 0 8px;
+    margin: 20px 8px;
     color: #1976d2;
     font-size: 14px;
     background: #fff;
@@ -89,30 +82,29 @@ header {
     background: #fff;
     overflow: hidden;
 }
+.header_social {
+    display: flex;
+}
 /*-----LOGO-----*/
 .logo {
-    float: left;
-    margin: 30px 0;
-    padding-left: 15px;
+    margin: 22px 0;
+    width: 50%;
 }
 .main_menu {
-    float: right;
-    padding-right: 10px;
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
 }
-.main_menu li {
-    float: left;
-}
-.main_menu li a {
-    display: block;
+.main_menu a {
     color: #333333;
     font-family: 'Roboto Medium', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 50px 22px;
+    padding: 40px 14px;
     box-sizing: border-box;
     border-bottom: 3px solid #fff;   
 }
-.main_menu li a:hover {
+.main_menu a:hover {
     color: #f95d5a;
     border-bottom: 3px solid #f95d5a;
 }
@@ -124,8 +116,8 @@ header {
     width: 32px;
     height: 32px;
     text-align: center;
-    margin-top: 40px;
     margin-left: 24px;
+    margin-top: 30px;
     padding-top: 10px;
     box-sizing: border-box;
 }
@@ -137,15 +129,17 @@ nav i:hover {
 /*-----MAIN TITLES-----*/
 .main_title {
     background-image: url(../image/bg.jpg);
-    background-repeat: no-repeat;
     background-position: center;
-    bacground-size: cover;
+    background-repeat: no-repeat;
 }
 .title_padding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 160px;
 }
 h1 {
-    text-align: center;
     text-transform: uppercase;
     color: #fff;
     font-size: 56px;
@@ -158,10 +152,8 @@ h1 span {
 }
 h2 {
     margin-top: 44px;
-    text-align: center;
     color: #fff;
     font-size: 20px;
-    font-family: Roboto Regular, sans-serif;
     box-sizing: border-box;
 }
 .button {
@@ -220,37 +212,45 @@ h2 {
     background: linear-gradient(to right, #1976d3, #03a9f5);
     overflow: hidden;
 }
-.about_services div{
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.service div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 205px;
     height: 198px;
-    float: left;
     background: #1976d3;
-    text-align: center;
-    padding: 56px 32px 0 32px;
     box-sizing: border-box;
 }
-.about_services div:nth-child(2n){
+.service div:nth-child(2n){
     background: #03a9f5;
 }
-.services p {
+.service p {
+    text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 20px;
     margin-top: 12px;
 }
 /*-----ABOUT SERVICES-----*/
-.about {
-    padding: 66px 0;
+.about_services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 66px;
 }
 .service_description {
-    float: left;
+    display: flex;
     width: 408px;
     box-sizing: border-box;
     margin-top: 34px;
     margin-bottom: 34px;
-}
-.service_description:last-child {
-    float: right;
 }
 .service_image i {
     color: #fff;
@@ -261,8 +261,7 @@ h2 {
     text-align: center;
     padding-top: 12px;
     box-sizing: border-box;
-    float: left;
-    margin: 0 12px 74px 12px; /*вилазить після зменшення*/
+    margin: 0 12px 74px 12px;
 }
 .service_name h5 {
     box-sizing: border-box;
@@ -504,7 +503,7 @@ hr {
 .facts {
     display: flex;
     justify-content: space-between;
-    padding: 90px 0;
+    padding: 90px 20px;
 }
 .fact_name {
     text-align: center;
