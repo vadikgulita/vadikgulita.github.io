@@ -49,7 +49,7 @@ header {
 }
 .contact {
     float: left;
-    padding: 26px 0;
+    padding: 26px 15px;
 }
 .contact li {
     float: left;
@@ -92,10 +92,12 @@ header {
 /*-----LOGO-----*/
 .logo {
     float: left;
-    margin: 30px 0; 
+    margin: 30px 0;
+    padding-left: 15px;
 }
 .main_menu {
     float: right;
+    padding-right: 10px;
 }
 .main_menu li {
     float: left;
@@ -134,8 +136,10 @@ nav i:hover {
 }
 /*-----MAIN TITLES-----*/
 .main_title {
-    background: url(../image/bg.jpg) no-repeat center center;
-    height: 100%;
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    bacground-size: cover;
 }
 .title_padding {
     margin-top: 160px;
