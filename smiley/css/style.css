@@ -100,7 +100,7 @@ header {
     font-family: 'Roboto Medium', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 40px 14px;
+    padding: 40px 12px;
     box-sizing: border-box;
     border-bottom: 3px solid #fff;   
 }
@@ -278,7 +278,9 @@ h2 {
 }
 /*-----WEB PLAYER-----*/
 .mediaplayer {
-    background: url(../image/bg_player.jpg) no-repeat center center;
+    background-image: url(../image/bg_player.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
     height: 526px;
  }
