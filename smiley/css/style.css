@@ -659,6 +659,11 @@ hr {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    margin-right: 30px;
+}
+.latest_news img {
+    width: 100%;
 }
 .latest_news a {
     background-color: #2095f2;
@@ -675,17 +680,20 @@ hr {
     transition: all 0.3s;
 }
 .latest_news h6 {
+    font-size: 16px;
     text-transform: uppercase;
     margin-left: 20px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 .latest_news p {
     margin-left: 20px;
     margin-bottom: 32px;
     color: #777;
+    font-family: 'Roboto Light',sans-serif;
+    font-size: 12px
 }
 .latest_news article {
-    margin: 0 22px;
+    margin: 28px 22px;
     line-height: 30px;
     color: #777;
 }
