@@ -14,10 +14,12 @@ li{
     outline: 0;
     outline-offset: 0;
 }
-
+html, body {
+    height: 100%;
+}
 
 .container {
-    max-width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 .main_container {
@@ -131,6 +133,7 @@ nav i:hover {
     background-image: url(../image/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .title_padding {
     display: flex;
