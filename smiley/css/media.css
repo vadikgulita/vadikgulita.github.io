@@ -18,17 +18,51 @@
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
-
+    .price_card {
+        width: 288px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .scroll-down {
+        display: none;
+    }
 }
-
 /* 769 - 960 px */
 @media screen and (max-width: 960px) {
-
+    h1 {
+        font-size: 35px;
+        padding-top: 150px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .button {
+        width: 150px;
+        padding: 16px 0;
+        font-size: 14px;
+        margin-top: 84px;
+    }
+    .service_description {
+        width: 330px;
+    }
+    .price_card {
+        width: 210px;
+    }
+    .newsletter form > input[type="email"] {
+        width: 630px;
+    }
+    .newsletter i.zmdi {
+        margin-right: 630px;
+        margin-bottom: -25px;
+    }
 }
 
 /* 481 - 768 px */
 @media screen and (max-width: 768px) {
-    
+    .social {
+        justify-content: center;
+    }
 }
 
 /* 320 - 480 px */

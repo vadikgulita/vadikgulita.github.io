@@ -94,6 +94,7 @@ header {
 .main_menu {
     width: 50%;
     justify-content: space-between;
+    align-items: baseline;
     display: flex;
 }
 .main_menu a {
@@ -350,6 +351,7 @@ hr {
 .filter {
     display: flex;
     justify-content: center;
+    margin: 0 20px;
 }
 .btn {
     border: none;
