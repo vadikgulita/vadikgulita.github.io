@@ -287,14 +287,15 @@ h2 {
     background-image: url(../image/bg_player.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
     height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  .mediaplayer button {
     border-radius: 50%;
     width: 126px;
     height: 126px;
-    box-sizing: border-box;
     background: rgba(0, 0, 0, 0.1);
  }
  .mediaplayer button:hover {
@@ -309,10 +310,6 @@ h2 {
     background: #fff;
     padding: 20px 36px;
  }
- .center_button {
-    padding: 200px 552px;
-    box-sizing: border-box;
-}
 /*-----PORTFOLIO-----*/
 .portfolio {
     display: flex;
@@ -515,7 +512,7 @@ hr {
 /*-----FACT-----*/
 .facts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 90px 20px;
 }
 .fact_name {
@@ -759,7 +756,7 @@ i.zmdi + input[type="email"] {
   z-index: 1;
   color: #fff;
 }
-input[type="submit"]:hover {
+form > input[type="submit"]:hover {
     background-color: #ef5350;
     transition: all 0.3s;
 }
