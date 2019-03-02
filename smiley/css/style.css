@@ -177,6 +177,10 @@ h2 {
     margin-left: 12px;
     font-weight: bold;
 }
+.button:hover {
+    background-color: #ef5350;
+    transition: all 0.3s;
+}
 /*-----SCROLLER MOUSE------*/
 .scroll-down {
     margin: 0 auto;
@@ -549,8 +553,6 @@ hr {
 }
 .logo_clients .owl-item .item img {
     padding: 5px;
-    width: 134px;
-    height: 110px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -585,7 +587,7 @@ hr {
 /*-----PRICE-----*/
 .prices {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 60px;
@@ -603,6 +605,7 @@ hr {
 .price_card:nth-child(2) {
     zoom: 1.1;
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+    margin: 0 20px;
 }
 .price_card .btn:hover {
     background-color: #ef5350;
@@ -724,14 +727,14 @@ hr {
   height: 26px;
   line-height: 26px;
   text-align: center;
-  margin-right: 764px;
+  margin-right: 770px;
   margin-bottom: -26px;
   position: relative;
   z-index: 1;
   color: #a7a7a7;
 }
 i.zmdi + input[type="email"] {
-  padding-left: 12px;
+  padding-left: 20px;
 }
 .newsletter form > input[type="submit"] {
     width: 170px;
@@ -755,6 +758,10 @@ i.zmdi + input[type="email"] {
   top: 80px;
   z-index: 1;
   color: #fff;
+}
+input[type="submit"]:hover {
+    background-color: #ef5350;
+    transition: all 0.3s;
 }
 /*-----FOOTER-----*/
 footer {
