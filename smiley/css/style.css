@@ -93,7 +93,7 @@ header {
 }
 .main_menu {
     width: 70%;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: baseline;
     display: flex;
 }
