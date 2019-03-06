@@ -27,7 +27,7 @@
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
     .service_description {
-        width: 408px;
+        width: 320px;
     }
     .price_card {
         width: 288px;
@@ -47,9 +47,12 @@
     header {
         position: inherit;
     }
-    .header_social {
+    /* .header_social {
         flex-direction: column;
         align-items: center;
+    } */
+    .main_menu {
+        width: auto;
     }
     .title_padding {
         margin: 0;
@@ -68,10 +71,10 @@
         margin-top: 84px;
     }
     .service_description {
-        width: 330px;
+        width: 280px;
     }
     .price_card {
-        width: 210px;
+        width: 206px;
     }
     .latest_news a {
         left: 180px;
@@ -133,9 +136,6 @@
     .filter {
     flex-direction: column;
     }
-    .con {
-    width: auto;
-    }
     .works {
         justify-content: center;    
     }
@@ -165,7 +165,6 @@
         margin-top: 18px;
     }
     .prices {
-        flex-direction: column;
         margin-top: 0;
     }
     h3 {
@@ -180,6 +179,11 @@
     }
     
 }
+@media screen and (max-width: 700px) {
+.social {
+    width: auto;
+}
+}    
 /* 320 - 480 px */
 @media screen and (max-width: 480px) {
     
