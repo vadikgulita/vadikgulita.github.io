@@ -89,10 +89,10 @@ header {
 /*-----LOGO-----*/
 .logo {
     margin: 22px 0;
-    width: 50%;
+    width: 30%;
 }
 .main_menu {
-    width: 50%;
+    width: 70%;
     justify-content: space-between;
     align-items: baseline;
     display: flex;
