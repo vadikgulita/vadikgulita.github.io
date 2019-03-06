@@ -13,11 +13,28 @@
 
 /* 1369 - 1600 px */
 @media screen and (max-width: 1600px) {
-    
+    .contact {
+        padding-left: 15px;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .main_menu {
+        padding-right: 10px;
+    }
 }
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
+   .logo {
+        width: 32%;
+    }
+    .main_menu {
+        width: auto;
+    }
+    .service_description {
+        width: 300px;
+    }
     .price_card {
         width: 288px;
     }
@@ -27,9 +44,22 @@
     .scroll-down {
         display: none;
     }
+    .latest_news a {
+        left: 220px;
+    }
 }
 /* 769 - 960 px */
 @media screen and (max-width: 960px) {
+    header {
+        position: inherit;
+    }
+    .header_social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_padding {
+        margin: 0;
+    }
     h1 {
         font-size: 35px;
         padding-top: 150px;
@@ -49,6 +79,9 @@
     .price_card {
         width: 210px;
     }
+    .latest_news a {
+        left: 180px;
+    }
     .newsletter form > input[type="email"] {
         width: 630px;
     }
@@ -60,11 +93,99 @@
 
 /* 481 - 768 px */
 @media screen and (max-width: 768px) {
+    .header_contacts {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        width: auto;
+        padding: 10px 4px;
+    }
+    .logo {
+        width: auto;
+    }
     .social {
         justify-content: center;
     }
-}
+    .main_menu a {
 
+    font-size: 12px;
+    padding: 42px 5px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .service {
+        flex-wrap: wrap;
+    }
+    .service div {
+        height: 140px;
+    }
+    .latest_news a {
+        left: 86px;
+    }
+    .service_description {
+        width: 238px;
+        margin-bottom: 0;
+    }
+    .about_services {
+    margin: 0;
+    }
+    .filter {
+    flex-direction: column;
+    }
+    .con {
+    width: auto;
+    }
+    .works {
+        justify-content: center;    
+    }
+
+    .newsletter form > input[type="email"] {
+        width: 300px;
+    }
+    .posts {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    }
+    .facts {
+    padding: 50px 5px;
+    }
+    .fact_name i {
+        margin-right: 0;
+        font-size: 28px;
+        color: #ef5350;
+    }
+    .fact_name span {
+       font-size: 18px;
+        font-weight: bold;
+    }
+    .fact_name p {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .prices {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    .newsletter i.zmdi {
+        margin-right: 300px;
+        margin-bottom: -25px;
+    }
+    
+}
 /* 320 - 480 px */
 @media screen and (max-width: 480px) {
     
