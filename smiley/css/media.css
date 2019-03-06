@@ -26,12 +26,6 @@
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
-   .logo {
-        width: 36%;
-    }
-    /* .main_menu {
-        width: auto;
-    } */
     .service_description {
         width: 300px;
     }
