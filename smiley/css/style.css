@@ -802,17 +802,3 @@ footer {
     color: #fff;
     transition: all 0.3s;
 }
-
-@media screen and (max-width: 768px) {
-    .logo{
-        width: 20%;
-        padding-left: 10px;
-    }
-    .main_menu li a {
-        padding: 44px 8px;
-    }
-    .main_menu i {
-        margin-top: 34px;
-        margin-left: 10px;
-    }
-}
