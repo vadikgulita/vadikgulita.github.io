@@ -577,9 +577,6 @@ hr {
 .logo_clients {
     position: sticky;
 }
-.slider_logo_clients .owl-nav {
-    display: none;
-} 
 .slider_logo_clients .owl-nav i {
     font-size: 18px;
     width: 20px;
