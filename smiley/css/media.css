@@ -66,7 +66,6 @@
     }
     .newsletter i.zmdi-email {
         margin-right: 630px;
-        margin-bottom: -25px;
     }
 }
 
@@ -169,7 +168,6 @@
     }    
     .newsletter i.zmdi-email {
         margin-right: 300px;
-        margin-bottom: -25px;
     }
 }
 
@@ -221,7 +219,10 @@
     .footer_content p {
         font-size: 10px;
     }
-    .newsletter form > input[type="submit"] {
-    margin-bottom: 80px;
+    .newsletter form > input[type="email"] {
+        width: 200px;
+    }
+    .newsletter i.zmdi-email {
+        margin-right: 204px;
     }
 }
