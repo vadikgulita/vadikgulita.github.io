@@ -64,7 +64,7 @@
     .newsletter form > input[type="email"] {
         width: 630px;
     }
-    .newsletter i.zmdi {
+    .newsletter i.zmdi-email {
         margin-right: 630px;
         margin-bottom: -25px;
     }
