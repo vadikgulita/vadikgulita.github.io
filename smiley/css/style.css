@@ -17,7 +17,6 @@ li{
 html, body {
     height: 100%;
 }
-
 .container {
     width: 100%;
     margin: 0 auto;
@@ -26,6 +25,7 @@ html, body {
     margin: 0 auto;
     max-width: 1920px;
 }
+
 /*------HEADER------*/
 header {
     position: fixed;
@@ -37,6 +37,7 @@ header {
     max-width: 1720px;
     margin: 0 auto;
 }
+
 /*-----MINIBAR-----*/
 .minibar {
     background: #1976d2;
@@ -78,6 +79,7 @@ header {
     background: #f95d5a;
     color: #fff;
 }
+
 /*-----MENU-----*/
 .menu {
     background: #fff;
@@ -86,6 +88,7 @@ header {
 .header_social {
     display: flex;
 }
+
 /*-----LOGO-----*/
 .logo {
     margin: 22px 0;
@@ -129,6 +132,9 @@ nav i:hover {
     background: #f95d5a;
     cursor: pointer;
 }
+
+/*-----NAV-BURGER-----*/
+
 /*-----MAIN TITLES-----*/
 .main_title {
     background-image: url(../image/bg.jpg);
@@ -183,6 +189,7 @@ h2 {
     background-color: #ef5350;
     transition: all 0.3s;
 }
+
 /*-----SCROLLER MOUSE------*/
 .scroll-down {
     margin: 0 auto;
@@ -214,6 +221,7 @@ h2 {
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
 }
+
 /*-----SERVICES-----*/
 .services {
     color: #fff;    
@@ -246,6 +254,7 @@ h2 {
     line-height: 20px;
     margin-top: 12px;
 }
+
 /*-----ABOUT SERVICES-----*/
 .about_services {
     display: flex;
@@ -284,6 +293,7 @@ h2 {
     line-height: 24px;
     color: #777;
 }
+
 /*-----WEB PLAYER-----*/
 .mediaplayer {
     background-image: url(../image/bg_player.jpg);
@@ -293,13 +303,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
  .mediaplayer button {
     border-radius: 50%;
     width: 126px;
     height: 126px;
     background: rgba(0, 0, 0, 0.1);
- }
+}
  .mediaplayer button:hover {
     color: #f95d5a;
     cursor: pointer;
@@ -311,7 +321,8 @@ h2 {
     height: 88px;
     background: #fff;
     padding: 20px 36px;
- }
+}
+
 /*-----PORTFOLIO-----*/
 .portfolio {
     display: flex;
@@ -347,6 +358,7 @@ hr {
     height: 2px;
     width: 50px;
 }
+
 /*-----FILTER-----*/
 .filter {
     display: flex;
@@ -369,6 +381,7 @@ hr {
     color: white;
     border-radius: 3px;
 }
+
 /*-----WORKS-----*/
 .works {
     display: flex;
@@ -433,6 +446,7 @@ hr {
     margin-top: 60px;
     margin-bottom: 110px;
 }
+
 /*-----TEAM-----*/
 .team {
     background: #1976d2;
@@ -513,6 +527,7 @@ hr {
     border-radius: 30px;
     color: #03a9f4;
 }
+
 /*-----FACT-----*/
 .facts {
     display: flex;
@@ -535,6 +550,7 @@ hr {
     font-size: 20px;
     margin-top: 24px;
 }
+
 /*-----REVIEWS-----*/
 .reviews {
     background: #1976d2;
@@ -543,6 +559,7 @@ hr {
 .reviews hr {
     background: #fff;
 }
+
 /*----LOGO-CLIENTS-----*/
 .logo_clients {
     background-color: #e1e0e0;
@@ -585,6 +602,7 @@ hr {
     background-color: #ef5350;
     transition: all 0.3s;
 }
+
 /*-----PRICE-----*/
 .prices {
     display: flex;
@@ -655,6 +673,7 @@ hr {
     border-radius: 5px;
     margin: 34px 0;
 }
+
 /*-----NEWS-----*/
 .posts {
     display: flex;
@@ -704,6 +723,7 @@ hr {
     line-height: 30px;
     color: #777;
 }
+
 /*-----NEWSLETTER------*/
 .newsletter {
     background-color: #f5f5f5;
@@ -724,47 +744,38 @@ hr {
     border-bottom: 1px solid #03a9f4;
     background-color: inherit;
 }    
-.newsletter i.zmdi {
-  width: 26px;
-  height: 26px;
-  line-height: 26px;
-  text-align: center;
-  margin-right: 770px;
-  margin-bottom: -26px;
-  position: relative;
-  z-index: 1;
-  color: #a7a7a7;
+form i.zmdi-email {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 770px;
+    margin-bottom: -26px;
+    position: relative;
+    z-index: 1;
+    color: #a7a7a7;
 }
 i.zmdi + input[type="email"] {
-  padding-left: 20px;
+    padding-left: 20px;
 }
-.newsletter form > input[type="submit"] {
-    width: 170px;
-    height: 50px;
+.subscribe {
+    background: #2095f2;
     color: #fff;
-    border: none;
-    background-color: #03a9f4;
-    border-radius: 14px;
+    border-radius: 35px;
+    width: 170px;
+    padding: 20px 0;
+    text-align: center;
     text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 68px;
-    margin-bottom: 118px;
-} 
-.newsletter form > i.zmdi-cloud-done {
-  width: 26px;
-  height: 26px;
-  line-height: 26px;
-  text-align: center;
-  margin-right: -106px;
-  position: relative;
-  top: 80px;
-  z-index: 1;
-  color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 70px;
+    margin-bottom: 180px;
 }
-form > input[type="submit"]:hover {
+.subscribe:hover {
     background-color: #ef5350;
     transition: all 0.3s;
 }
+
 /*-----FOOTER-----*/
 footer {
     background: #1976d2;
