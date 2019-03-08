@@ -149,7 +149,8 @@
         font-size: 14px;
     }
     .fact_name {
-        margin: 10px 0;
+        margin: 12px 0;
+        width: 50%;
     }
     .prices {
         flex-direction: column;
@@ -163,11 +164,17 @@
         flex-direction: column;
         margin-bottom: 0;
     }
+    article {
+        display: none;
+    }
     .newsletter form > input[type="email"] {
         width: 300px;
     }    
     .newsletter i.zmdi-email {
         margin-right: 300px;
+    }
+    .subscribe {
+        margin-bottom: 100px;
     }
 }
 
@@ -209,26 +216,6 @@
         padding: 14px 0;
         font-size: 12px;
         margin-bottom: 80px;
-    }
-    .facts {
-        justify-content: space-around;
-        flex-flow: wrap;
-        padding: 10px;
-    }
-    .fact_name i {
-        margin-right: 0;
-        font-size: 28px;
-        color: #ef5350;
-    }
-    .fact_name span {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .fact_name p {
-        font-size: 14px;
-    }
-    .fact_name {
-        margin: 10px 0;
     }
     .mediaplayer {
         height: 300px;
