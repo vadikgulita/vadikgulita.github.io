@@ -605,7 +605,7 @@ hr {
     position: absolute;
     top: 45%;
 }
-.owl-nav {
+div.owl-nav {
     height: 0;
 }
 .slider_logo_clients .owl-nav .owl-prev i {
