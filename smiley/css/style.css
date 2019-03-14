@@ -337,14 +337,12 @@ h2 {
 }
 .center_button {
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .video-overlay {
     position: absolute;
-    left: 44%;
-    top: 40%;
-    right: 0;
-    bottom: 0;
 }
 
 /*-----PORTFOLIO-----*/
