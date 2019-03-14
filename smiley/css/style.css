@@ -296,13 +296,13 @@ h2 {
 
 /*-----WEB PLAYER-----*/
 .mediaplayer {
-    background-image: url(../image/bg_player.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 526px;
+    /*background-image: url(../image/bg_player.jpg);*/
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* margin: 20px 0; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
  .mediaplayer button {
     border-radius: 50%;
@@ -321,6 +321,17 @@ h2 {
     height: 88px;
     background: #fff;
     padding: 20px 36px;
+}
+.center_button {
+    position: relative;
+    /* display: inline-block; */
+}
+.video-overlay {
+    position: absolute;
+    left: 44%;
+    top: 40%;
+    right: 0;
+    bottom: 0;
 }
 
 /*-----PORTFOLIO-----*/
