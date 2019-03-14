@@ -385,7 +385,6 @@ hr {
 .filter {
     display: flex;
     justify-content: center;
-    margin: 0 20px;
 }
 .btn {
     border: none;
