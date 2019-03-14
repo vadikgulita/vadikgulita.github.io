@@ -105,10 +105,10 @@
         padding: 10px;
         color: #fff;
         background-color: #1976d2;
+        border: none;
     }
     #toggle:checked + .main_menu a:hover {
         background-color: #2095f2;
-        border: none;
     }
     #toggle:checked + .main_menu i {
         display: none;
