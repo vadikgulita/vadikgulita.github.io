@@ -108,6 +108,7 @@
     }
     #toggle:checked + .main_menu a:hover {
         background-color: #2095f2;
+        border: 0;
     }
     #toggle:checked + .main_menu i {
         display: none;
