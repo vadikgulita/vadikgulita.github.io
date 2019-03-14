@@ -134,7 +134,20 @@ nav i:hover {
 }
 
 /*-----NAV-BURGER-----*/
-
+.burger {
+    width: 70%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
 /*-----MAIN TITLES-----*/
 .main_title {
     background-image: url(../image/bg.jpg);
