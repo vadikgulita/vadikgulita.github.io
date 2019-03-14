@@ -89,17 +89,11 @@
         cursor: pointer;
     }
     .main_menu {
-        text-align: center;
-        width: 100%;
         display: none;
-    }
-    .main_menu a {
-        display: inline-block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
     }
     #toggle:checked + .main_menu {
         display: flex;
+        align-items: flex-end;
         flex-direction: column;
         width: 25%;
         position: absolute;
@@ -107,9 +101,13 @@
         right: 0;
     }
     #toggle:checked + .main_menu a {
+        width: 130px;
         padding: 10px;
-        color: red;
-        background-color: #fff;
+        color: #fff;
+        background-color: #1976d2;
+    }
+    #toggle:checked + .main_menu a:hover {
+        background-color: #2095f2;
     }
     #toggle:checked + .main_menu i {
         display: none;
