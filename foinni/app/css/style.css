@@ -29,7 +29,7 @@ li {
   outline-offset: 0;
 }
 header {
-  background-image: url(/images/bg.jpg);
+  background-color: #4a494a;
   background-size: cover;
   overflow: hidden;
   max-width: 100%;
