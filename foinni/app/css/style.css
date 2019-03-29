@@ -1,0 +1,167 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+p,
+nav,
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+header {
+  background-image: url(/images/bg-header.jpg);
+  background-size: cover;
+  overflow: hidden;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+}
+header .main_container {
+  width: 1170px;
+}
+header .main_container .header {
+  display: flex;
+  border-bottom: 1px solid #4a494a;
+  padding-top: 46px;
+  padding-bottom: 40px;
+}
+header .main_container .header .logo {
+  width: 50%;
+}
+header .main_container .header .burger {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+header .main_container .header .burger a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 42px;
+}
+header .main_container .header .burger label {
+  display: none;
+}
+header .main_container .header .burger #toggle {
+  display: none;
+}
+header .main_container .main_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header .main_container .main_title h1 {
+  font-size: 48px;
+  padding-top: 260px;
+}
+header .main_container .main_title h1 span {
+  text-transform: uppercase;
+  color: #1dde85;
+}
+header .main_container .main_title h2 {
+  font-size: 14px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+main .main_container {
+  width: 1170px;
+}
+main .main_container .services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .main_container .services .about_services {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .main_container .services .about_services .service {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 390px;
+}
+main .main_container .team {
+  display: flex;
+  flex-direction: column;
+}
+main .main_container .team .about_team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .main_container .team .about_team .photo_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main_container .portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main_container .portfolio .works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .main_container .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .main_container .price .prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main .main_container .price .prices .price_card {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer form .inputs {
+  display: flex;
+}
