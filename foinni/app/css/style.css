@@ -29,6 +29,7 @@ li {
   outline-offset: 0;
 }
 header {
+  background-image: url(images/bg.jpg);
   background-color: #4a494a;
   background-size: cover;
   overflow: hidden;
@@ -84,6 +85,7 @@ header .main_container .main_title h1 span {
 }
 header .main_container .main_title h2 {
   font-size: 14px;
+  margin-top: 20px;
 }
 main {
   display: flex;
