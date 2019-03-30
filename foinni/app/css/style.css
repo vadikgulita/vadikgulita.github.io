@@ -29,7 +29,7 @@ li {
   outline-offset: 0;
 }
 header {
-  background-image: url(images/bg.jpg);
+  background-image: url(../images/bg-header.jpg);
   background-color: #4a494a;
   background-size: cover;
   overflow: hidden;
@@ -153,7 +153,7 @@ main .main_container .price .prices .price_card {
   align-items: center;
 }
 footer {
-  background-image: url(/images/bg-footer.jpg);
+  background-image: url(../images/bg-footer.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
