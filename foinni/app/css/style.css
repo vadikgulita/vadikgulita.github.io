@@ -153,6 +153,8 @@ main .main_container .price .prices .price_card {
   align-items: center;
 }
 footer {
+  background-image: url(images/bg-footer.jpg);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
