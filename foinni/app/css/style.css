@@ -34,6 +34,7 @@ header {
   background-size: cover;
   overflow: hidden;
   max-width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -63,6 +64,11 @@ header .main_container .header .burger a {
   font-size: 14px;
   text-decoration: none;
   margin-right: 42px;
+  padding-bottom: 12px;
+}
+header .main_container .header .burger a:hover {
+  color: #1dde85;
+  border-bottom: 1px solid #1dde85;
 }
 header .main_container .header .burger label {
   display: none;
@@ -74,18 +80,19 @@ header .main_container .main_title {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 260px 0;
 }
 header .main_container .main_title h1 {
   font-size: 48px;
-  padding-top: 260px;
 }
 header .main_container .main_title h1 span {
   text-transform: uppercase;
   color: #1dde85;
 }
 header .main_container .main_title h2 {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 20px;
+  text-align: center;
 }
 main {
   display: flex;
@@ -99,19 +106,61 @@ main .main_container .services {
   align-items: center;
   flex-direction: column;
 }
+main .main_container .services h3 {
+  margin-top: 130px;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 54px;
+}
+main .main_container .services h3 span {
+  color: #1dde85;
+}
+main .main_container .services h4 {
+  font-size: 18px;
+  margin: 44px 0;
+  text-align: center;
+  padding: 0 100px;
+}
 main .main_container .services .about_services {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 main .main_container .services .about_services .service {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 390px;
+  width: 345px;
+  margin: 24px 0;
+  border: 1px solid #cac8c5;
+  padding: 32px 8px;
+  color: #454546;
+}
+main .main_container .services .about_services .service:hover {
+  color: #1dde85;
+  border-color: #1dde85;
+  cursor: pointer;
+}
+main .main_container .services .about_services .service h5 {
+  font-size: 24px;
+}
+main .main_container .services .about_services .service p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 44px;
+  color: #8f8e91;
 }
 main .main_container .team {
   display: flex;
   flex-direction: column;
+}
+main .main_container .team h3 {
+  margin-top: 130px;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 54px;
 }
 main .main_container .team .about_team {
   display: flex;
@@ -122,6 +171,27 @@ main .main_container .team .about_team .photo_team {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+main .main_container .team .about_team .photo_team .info_team {
+  position: absolute;
+  bottom: 18px;
+  color: #fff;
+  background-color: #454546;
+  opacity: 0.9;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main_container .team .about_team .photo_team .info_team p {
+  font-size: 18px;
+  margin: 4px;
+}
+main .main_container .team .about_team .photo_team .info_team p span {
+  font-size: 14px;
 }
 main .main_container .portfolio {
   display: flex;
