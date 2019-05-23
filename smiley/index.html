@@ -17,7 +17,17 @@
 
     <title>Smiley</title>
 </head>
-<body>
+<body onload="preLoader()">
+    <div class="transition-loader" id="transition-loader">
+        <div class="transition-loader-inner">
+            <label></label>
+            <label></label>
+            <label></label>
+            <label></label>
+            <label></label>
+            <label></label>
+        </div>
+    </div>
     <header>
         <div class="minibar">
             <div class="container">
@@ -744,6 +754,7 @@
             </div>
         </div>
     </footer>
+    
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
@@ -757,6 +768,17 @@
     <div id="scrollToTop" onclick="goUp();">
         <i class="zmdi zmdi-long-arrow-up"></i>
     </div>
+    
+    <script>
+        var loader;
+        function preLoader() {
+          loader = setTimeout(showPage, 3000);
+        }
+        function showPage() {
+          document.getElementById("transition-loader").remove();
+        }
+    </script>
+    
     <script src="js/jquery.js"></script>
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/slider-team.js"></script>
