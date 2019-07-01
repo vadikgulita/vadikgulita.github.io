@@ -12,7 +12,6 @@ const { series, parallel } = require('gulp');
 const cssFiles = [
    './app/css/bootstrap.css',
    './app/css/carousel.css',
-   './app/css/font-awesome.css',
    './app/css/main.css'   
 ]
 
