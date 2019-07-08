@@ -176,6 +176,10 @@ input.form-control {
 /*-----slider-----*/
 
 #myCarousel .carousel-inner {
+  height: 100%;
+}
+
+#myCarousel .carousel-item {
   height: 100vh;
 }
 
@@ -201,7 +205,7 @@ h1 span {
   background-color: rgba(255,255,255,0.2);
 }
 
-.carousel-indicators li {
+#myCarousel .carousel-indicators li {
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -389,7 +393,8 @@ form.contacts_form{
 
 .contacts {
   width: 100%;  
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: 632px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
