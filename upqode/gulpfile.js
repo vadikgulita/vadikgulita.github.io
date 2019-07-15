@@ -10,8 +10,8 @@ const browserSync = require('browser-sync').create();
 const { series, parallel } = require('gulp');
 
 const cssFiles = [
-   './app/css/bootstrap.css',
    './app/css/carousel.css',
+   './app/css/bootstrap.css',
    './app/css/main.css'   
 ]
 
