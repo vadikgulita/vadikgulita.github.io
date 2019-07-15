@@ -16,6 +16,11 @@ input {
 	border: none;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 textarea {
   outline: none;
   border: none;
@@ -43,7 +48,7 @@ button:hover {
   text-transform: uppercase;
   font-size: 35px;
   padding: 3px 0;
-  line-height: 90px;
+  line-height: 140px;
 }
 
 .skills .title h2 span {
@@ -201,7 +206,7 @@ h1 span {
   padding: 25px;
   margin-left: 45px;
   margin-right: 45px;
-  top: 300px;
+  top: 50%;
   background-color: rgba(255,255,255,0.2);
 }
 
@@ -214,7 +219,7 @@ h1 span {
 /*------products-----*/
 .products {
   background-image: url(../img/bg-products.png);
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .product {
@@ -229,11 +234,10 @@ h1 span {
   background-image: url(../img/bg-product-title.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 161px;
+  height: 200px;
   display: flex;
   justify-content: center;
   z-index: 1;
-  margin-bottom: 100px;
 }
 
 .product_img {
@@ -254,9 +258,16 @@ h1 span {
   color: #373737;
   font-size: 14px;
 }
+#carouselExampleIndicators .carousel-item {
+  margin: 100px 0;
+}
 
 #carouselExampleIndicators .carousel-indicators li {
   background-color: #d7d7d7;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 #carouselExampleIndicators .carousel-indicators .active {
@@ -392,7 +403,7 @@ form.contacts_form{
 }
 
 .contacts {
-  width: 100%;  
+  width: 100%;
   /* min-height: 100vh; */
   height: 632px;
   display: -webkit-box;
