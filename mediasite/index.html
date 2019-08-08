@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Video-Content</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap&subset=latin-ext" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+      <div class="full-window-height video-bg">
+        <video
+            src="videos/fifa.visa.ru(full).mp4"
+            width="100%"
+            preload="auto"
+            autoplay="true"
+            muted="true"
+            loop="true"
+            controls>    
+        </video>
+      </div>
+    </header>
+    <section class="filter-video" id="menu">
+      <a class="item" href="#fifa">
+        <i class="zmdi zmdi-image-o"></i>
+        <p>What If?</p>
+      </a>
+      <a class="item" href="#designmarkgroup">
+        <i class="zmdi zmdi-tablet"></i>
+        <p>Product</p>
+      </a>
+      <a class="item" href="#elogic">
+        <i class="zmdi zmdi-laptop-mac"></i>
+        <p>Web</p>
+      </a>
+      <a class="item" href="#Petainer">
+          <i class="zmdi zmdi-devices"></i>
+        <p>App</p>
+      </a>
+      <a class="item" href="#nuage">
+        <i class="zmdi zmdi-videocam"></i>
+        <p>Media</p>
+      </a>
+    </section>
+    <main>
+      <div class="content content-video">
+        <a class="btn" data-video-src="videos/fifa.visa.ru.mp4" id="fifa">
+          <div class="red"><p>Fifa</p></div>
+          <img src="images/fifa.png" alt="">            
+        </a>
+        <a class="btn" data-video-src="videos/bsg.world.mp4" id="">
+          <div class="green"><p>BSG</p></div>
+          <img src="images/bsg.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/designmarkgroup.pt.mp4" id="designmarkgroup">
+          <div class="black"><p>DesignMarkGroup</p></div>
+          <img src="images/designmarkgroup.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/Matyushenko_Partners.mp4" id="">
+          <div class="pink"><p>Matyushenko Partners</p></div>
+          <img src="images/matyushenko_partners.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/elogic.mp4" id="elogic">
+          <div class="yellow"><p>Elogic</p></div>
+          <img src="images/elogic.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/peculium.io.mp4" id="">
+          <div class="blue"><p>Peculium</p></div>
+          <img src="images/peculium.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/Petainer.mp4" id="Petainer">
+          <div class="gray"><p>Petainer</p></div>
+          <img src="images/petainer.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/Tribe website.mp4" id="">
+          <div class="purple"><p>Tribe</p></div>
+          <img src="images/tribe.png" alt="">          
+        </a>
+        <a class="btn" data-video-src="videos/nuage.su.mp4" id="nuage">
+          <div class="lightblue"><p>Nuage</p></div>
+          <img src="images/nuage.png" alt="">
+        </a>
+        <a class="btn" data-video-src="videos/veermo.com.mp4" id="">
+          <div class="brown"><p>Veermo</p></div>
+          <img src="images/veermo.png" alt="">
+        </a>
+      </div>
+    </main>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close"><i class="zmdi zmdi-chevron-left"></i>
+        </span>
+        <video id="my-pop-up"
+          src=""
+          height="100%"
+          preload="auto"
+          autoplay="true"
+          muted="true"
+          loop="true"
+          controls>    
+        </video>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modal-window.js"></script>
+    <script type="text/javascript" src="js/full-height-menu.js"></script>
+    <script type="text/javascript" src="js/click-menu.js"></script>
+</body>
+</html>
