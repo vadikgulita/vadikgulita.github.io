@@ -39,7 +39,6 @@ button:hover {
 	cursor: pointer;
 }
 
-
 /*-----Header-----*/
 
 header {
@@ -453,7 +452,11 @@ iframe {
     margin-right: 40px;
   }
 }
+
 @media (max-width: 1024px) {
+  header {
+    height: auto;
+  }
   .nav ul li a {
     margin-right: 18px;
   }
@@ -469,8 +472,13 @@ iframe {
   .requirements_item img {
     width: 100%;
   }
+  .social_icon {
+    margin-right: 20px;
+  }
 }
-@media (max-width: 966px) {
+
+@media (max-width: 968px) {
+  
   .nav ul li a {
     margin-right: 12px;
     font-size: 12px;
@@ -482,8 +490,14 @@ iframe {
   .help_text {
     margin-top: 100px;
   }
+  .requirements_item {
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+  }
+  
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   input {
     width: 250px;
   }
@@ -508,8 +522,6 @@ iframe {
   .requirements_item img {
     width: auto;
   }
-}
-@media (max-width: 768px){
   .navigation {
     display: flex;
     justify-content: center;
