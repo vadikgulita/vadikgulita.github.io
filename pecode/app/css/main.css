@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: 'Comic Sans Bold';
-  src: url(../css/font/ComicSansMSBold.ttf) format('truetype'); 
+  src: url(ComicSansMSBold.ttf) format('truetype'); 
 }
 @font-face {
   font-family: 'Comic Sans Italic';
-  src: url(../css/font/ComicSansMSItalic.ttf) format('truetype'); 
+  src: url(ComicSansMSItalic.ttf) format('truetype'); 
 }
 @font-face {
   font-family: 'Comic Sans Bold Italic';
-  src: url(../css/font/ComicSansMSBoldItalic.ttf) format('truetype'); 
+  src: url(ComicSansMSBoldItalic.ttf) format('truetype'); 
 }
 
 body {
