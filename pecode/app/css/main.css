@@ -138,7 +138,7 @@ h2 {
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
-  z-index: 99;
+  z-index: 999;
 }
 
 .main_page .btn_sent:hover{
