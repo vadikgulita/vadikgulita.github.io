@@ -81,7 +81,6 @@ header img {
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: 'Comic Sans MS Regular', sans-serif;
   font-weight: bold;
   text-decoration: none;
   margin-right: 40px;
@@ -99,7 +98,6 @@ h2 {
   color: #272f2f;
   font-size: 30px;
   text-transform: uppercase;
-  font-family: 'Comic Sans MS Regular', sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -158,11 +156,10 @@ h2 {
   content: attr(data-validate);
   position: absolute;
   max-width: 70%;
-  background-color: #000;
-  border: 1px solid #fff200;
+  background-color: #fb6a4e;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
-  top: 50%;
+  top: 45%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -170,7 +167,7 @@ h2 {
   transform: translateY(-50%);
   right: 2px;
   pointer-events: none;
-  color: #fff200;
+  color: #fff;
   font-size: 13px;
   line-height: 1.4;
   text-align: left;
@@ -183,12 +180,12 @@ h2 {
 }
 
 .alert-validate::after {
-  content: "\f12a";
-  font-family: FontAwesome;
+  content: "!";
   display: block;
   position: absolute;
-  color: #fff200;
-  font-size: 16px;
+  color: #fb6a4e;
+  font-size: 20px;
+  font-weight: bold;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -457,7 +454,7 @@ footer .wrap-contact-data h3 {
     width: 50%;
     margin-top: 140px;
   }
-  .help ul li {
+  #help ul li {
     margin-bottom: 36px;
     margin-right: 40px;
   }
@@ -487,7 +484,7 @@ footer .wrap-contact-data h3 {
     align-items: flex-end;
     margin-top: 0;
   }
-  .help h2 {
+  #help h2 {
     padding: 0;
     margin-bottom: 0;
   }
@@ -497,13 +494,13 @@ footer .wrap-contact-data h3 {
   .nav ul li a {
     margin-right: 18px;
   }
-  .help ul li {
+  #help ul li {
     margin-bottom: 20px;
   }
-  .help ul li .numbers {
+  #help ul li .numbers {
     font-size: 40px;
   }
-  .help ul li .text {
+  #help ul li .text {
     font-size: 12px;
   }
   .requirements_item img {
@@ -519,20 +516,20 @@ footer .wrap-contact-data h3 {
     margin-right: 12px;
     font-size: 12px;
   }
-  .help h2 {
+  #help h2 {
     padding: 0;
     margin-bottom: 0;
   }
   .help_text {
     margin-top: 100px;
   }
-  .help ul li {
+  #help ul li {
     margin-bottom: 10px;
   }
-  .help ul li {
+  #help ul li {
     margin-right: 24px;
   }
-  .help ul li .numbers {
+  #help ul li .numbers {
     font-size: 24px;
   }
   .help_text {
@@ -541,7 +538,7 @@ footer .wrap-contact-data h3 {
 }
 
 @media (max-width: 840px){
-  .help ul li .text {
+  #help ul li .text {
     font-size: 10px;
   }
 }
@@ -637,7 +634,7 @@ footer .wrap-contact-data h3 {
     width: 100%;
     padding: 0 20px 20px 20px;
   }
-  .help ul li:nth-child(2n) {
+  #help ul li:nth-child(2n) {
     padding-left: 0;
   }
   .help_text ul li {
@@ -652,7 +649,7 @@ footer .wrap-contact-data h3 {
   h2 {
     font-size: 20px;
   }
-  .help ul li .numbers {
+  #help ul li .numbers {
     font-size: 16px;
   }
 }
