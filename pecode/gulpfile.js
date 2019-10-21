@@ -45,7 +45,7 @@ function scripts() {
 }
 
 function img() {
-   return gulp.src('app/img/*')
+   return gulp.src('app/img/**/*')
    .pipe(imagemin([
      imgCompress({
        loops: 4,
