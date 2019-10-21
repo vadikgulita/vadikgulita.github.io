@@ -530,12 +530,15 @@ footer .wrap-contact-data h3 {
   .wrap_input input {
     width: 250px;
   }
+  .main_page {
+    margin-top: 200px;
+  }
   .nav ul li {
     padding: 20px 0;
     border-bottom: 2px solid white;
     width: 100%;
     text-align: right;
-    background-color: blue;
+    background-color: #1db9a3;
   }
   .nav {
     padding: 0 10px;
