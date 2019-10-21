@@ -294,7 +294,7 @@ h2 {
 }
 
 #help ul li .text {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -512,7 +512,7 @@ footer .wrap-contact-data h3 {
     font-size: 40px;
   }
   #help ul li .text {
-    font-size: 12px;
+    font-size: 14px;
   }
   .requirements_item img {
     width: 100%;
@@ -565,7 +565,7 @@ footer .wrap-contact-data h3 {
     align-items: center;
   }
   #help ul li .numbers {
-    font-size: 24px;
+    font-size: 40px;
   }
   .help_text {
     margin-top: 70px;
@@ -585,7 +585,7 @@ footer .wrap-contact-data h3 {
 
 @media (max-width: 840px){
   #help ul li .text {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -625,7 +625,7 @@ footer .wrap-contact-data h3 {
     left: 25%;
   }
   .help_text ul {
-    padding: 0;
+    padding: 0 30px;
   }
   .help_text ul li {
     margin-bottom: 4px;
