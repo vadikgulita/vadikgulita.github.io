@@ -162,11 +162,6 @@ h2 {
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
   top: 45%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
   right: 2px;
   pointer-events: none;
   color: #fff;
@@ -189,11 +184,6 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
   right: 8px;
 }
 
@@ -355,13 +345,13 @@ h2 {
 
 .offers_item_image:hover .image_before {
   display: none;
-  transition: all 0.3s;
+  transition: 3s;
 }
 
 .offers_item_image:hover .image_after {
   display: flex;
   cursor: pointer;
-  transition: all 0.3s easy;
+  transition: 3s;
 } 
 
 /*-----Footer-----*/
