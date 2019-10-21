@@ -549,6 +549,8 @@ footer .wrap-contact-data h3 {
   input {
     width: 250px;
   }
+	.bg-left {
+	display:none;}	
   .requirements_item {
     width: 300px;
   }
