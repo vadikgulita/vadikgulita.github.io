@@ -15,9 +15,8 @@ const cssFiles = [
 ]
 
 const jsFiles = [
-   './app/js/jquery.js',
-   './app/js/bootstrap.bundle.js',  
-   './app/js/menu.js',
+   './app/js/jquery.js',  
+   './app/js/click-menu.js',
    './app/js/validate.js'
 ]
 
