@@ -491,7 +491,7 @@ footer .wrap-contact-data h3 {
     z-index: 999;
   }
   .nav ul {
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     align-items: flex-end;
     margin-top: 0;
   }
@@ -530,8 +530,21 @@ footer .wrap-contact-data h3 {
   .wrap_input input {
     width: 250px;
   }
+  .nav ul li {
+    padding: 20px 0;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: right;
+    background-color: blue;
+  }
   .nav {
     padding: 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
    }
   #help h2 {
     padding: 0;
