@@ -280,7 +280,7 @@ h2 {
   align-items: flex-start;
   justify-content: flex-start;
   margin-bottom: 100px;
-  margin-right: 200px;
+  /* margin-right: 200px; */
 }
 
 #help ul li:nth-child(2n) {
@@ -297,13 +297,22 @@ h2 {
   margin-right: 46px;
   line-height: 46px;
 }
-
+#help{
+  background-image: url(../img/2.png);
+  width: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: initial;
+  background-clip: initial;
+  position: relative;
+  }
 .help_bg {
   width: 50%;
 }
 
 .help_text {
-  width: 50%;
+  /* width: 50%; */
   margin-top: 160px;
 }
 
