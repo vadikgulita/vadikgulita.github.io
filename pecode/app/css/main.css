@@ -67,6 +67,7 @@ header img {
 .nav {
   display: flex;
   justify-content: flex-end;
+  padding: 0 10px;
 }
 
 .nav ul {
@@ -518,6 +519,9 @@ footer .wrap-contact-data h3 {
     margin-right: 12px;
     font-size: 12px;
   }
+  .nav {
+    padding: 0 10px;
+   }
   #help h2 {
     padding: 0;
     margin-bottom: 0;
@@ -530,6 +534,8 @@ footer .wrap-contact-data h3 {
   }
   #help ul li {
     margin-right: 24px;
+    display: flex;
+    align-items: center;
   }
   #help ul li .numbers {
     font-size: 24px;
