@@ -407,7 +407,7 @@ footer .wrap-contact-data h3 {
   margin-bottom: 26px;
 }
 
-.wrap-contact-data div>a {
+.wrap-contact-data div>a, .wrap-contact input {
   color: #fff;
 }
 
