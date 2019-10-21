@@ -127,7 +127,7 @@ h2 {
 }
 
 .wrap_input input {
-  width: 332px;
+  /* width: 250px; */
 }
 
 .btn_sent {
@@ -537,6 +537,14 @@ footer .wrap-contact-data h3 {
   .help_text {
     margin-top: 70px;
   }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  .btn_sent{
+    width: 150px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 840px){
@@ -545,8 +553,8 @@ footer .wrap-contact-data h3 {
   }
 }
 
-@media (max-width: 767px){
-  input {
+@media (max-width: 767.98px){
+  .wrap_input input {
     width: 250px;
   }
 	.bg-left {
@@ -573,10 +581,7 @@ footer .wrap-contact-data h3 {
   .contact_form_btn {
     margin: 0;
   }
-  .btn_sent{
-    width: 150px;
-    height: 60px;
-  }
+  
   .contacts_form {
     margin-top: 30px;
   }
