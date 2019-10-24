@@ -252,7 +252,6 @@ main .main_container .portfolio .works {
 }
 main .main_container .portfolio .works .work {
   display: none;
-  /* Hide all elements by default */
   margin-bottom: 48px;
 }
 main .main_container .portfolio .works .work img {
@@ -508,4 +507,19 @@ footer .copyright {
   padding: 30px 0;
   width: 100%;
   text-align: center;
+}
+
+@media (min-width: 968px) and (max-width: 1024px) {
+  header .main_container .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  header .main_container .header .logo {
+    width: 40%;
+  }
+  header .main_container .header .burger {
+    width: 60%;
+  }
+  header .main_container .main_title h2 {
+    padding: 0 30px;
 }
