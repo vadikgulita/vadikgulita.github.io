@@ -1,16 +1,4 @@
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-ul,
-li,
-p,
-nav,
-button {
+body, h1, h2, h3, h4, h5, h6, a, ul, li, p, nav, button {
   padding: 0;
   margin: 0;
   border: 0;
@@ -28,6 +16,12 @@ li {
   outline: 0;
   outline-offset: 0;
 }
+h3 {
+  font-size: 30px;
+  margin: 80px 0 30px 0;
+  text-align: center;
+}
+
 header {
   background-image: url(../images/bg-header.jpg);
   background-color: #4a494a;
@@ -94,85 +88,85 @@ header .main_container .main_title h2 {
   margin-top: 20px;
   text-align: center;
 }
-main {
+.wrapper {
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+
 }
-main .main_container {
+.main_container {
   width: 1170px;
 }
-main .main_container .services {
+main .services {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-main .main_container .services h3 {
-  margin-top: 130px;
-  font-size: 30px;
+main .services h3 {
   color: #000;
-  text-align: center;
-  margin-bottom: 54px;
 }
-main .main_container .services h3 span {
+main .services h3 span {
   color: #1dde85;
 }
-main .main_container .services h4 {
+main .services h4 {
   font-size: 18px;
-  margin: 44px 0;
+  margin: 30px 0;
   text-align: center;
   padding: 0 100px;
 }
-main .main_container .services .about_services {
+main .services .about_services {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-main .main_container .services .about_services .service {
+main .services .about_services .service {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 345px;
-  margin: 24px 0;
+  margin: 20px 0;
   border: 1px solid #cac8c5;
   padding: 32px 8px;
   color: #454546;
 }
-main .main_container .services .about_services .service:hover {
+main .services .about_services .service:hover {
   color: #1dde85;
   border-color: #1dde85;
   cursor: pointer;
 }
-main .main_container .services .about_services .service h5 {
+main .services .about_services .service h5 {
   font-size: 24px;
 }
-main .main_container .services .about_services .service p {
+main .services .about_services .service p {
   font-size: 14px;
   text-align: center;
   margin-top: 44px;
   color: #8f8e91;
 }
-main .main_container .team {
+main .team {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-main .main_container .team .photo_team {
+main .team .about_team {
+  display: flex;
+}
+main .team .photo_team {
   position: relative;
   display: flex;
   overflow: hidden;
-  justify-content: space-between;
+  margin: 0 5px;
 }
-main .main_container .team .photo_team:hover .overlay {
+main .team .photo_team:hover .overlay {
   bottom: 0;
   height: 100%;
   cursor: pointer;
 }
-main .main_container .team .photo_team:hover .info_team {
+main .team .photo_team:hover .info_team {
   display: none;
 }
-main .main_container .team .photo_team .info_team {
+main .team .photo_team .info_team {
   position: absolute;
   bottom: 0;
   color: #fff;
@@ -185,11 +179,11 @@ main .main_container .team .photo_team .info_team {
   justify-content: center;
   align-items: center;
 }
-main .main_container .team .photo_team .info_team p {
+main .team .photo_team .info_team p {
   font-size: 18px;
   margin: 4px;
 }
-main .main_container .team .photo_team .overlay {
+main .team .photo_team .overlay {
   position: absolute;
   display: flex;
   bottom: 100%;
@@ -201,7 +195,7 @@ main .main_container .team .photo_team .overlay {
   height: 0;
   transition: 0.5s ease;
 }
-main .main_container .team .photo_team .overlay .text {
+main .team .photo_team .overlay .text {
   color: white;
   position: absolute;
   top: 50%;
@@ -211,75 +205,75 @@ main .main_container .team .photo_team .overlay .text {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-main .main_container .team .photo_team .overlay .text p {
+main .team .photo_team .overlay .text p {
   font-size: 14px;
 }
-main .main_container .team .photo_team .overlay .text h5 {
+main .team .photo_team .overlay .text h5 {
   font-size: 18px;
 }
-main .main_container .team .photo_team .overlay .text a {
+main .team .photo_team .overlay .text a {
   color: #fff;
+}main .team .photo_team .overlay .text a:hover {
+  color: #a7a6a2;
 }
-main .main_container .portfolio {
+main .portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .main_container .portfolio #filter {
+main .portfolio #filter {
   margin: 48px 0;
 }
-main .main_container .portfolio #filter .btn {
+main .portfolio #filter .btn {
   outline: none;
   background-color: transparent;
   cursor: pointer;
   font-size: 18px;
   margin: 0 20px;
 }
-main .main_container .portfolio #filter .btn:hover {
+main .portfolio #filter .btn:hover {
   border-bottom: 1px solid #1dde85;
   color: #1dde85;
 }
-main .main_container .portfolio #filter .btn-active {
+main .portfolio #filter .btn-active {
   border-bottom: 1px solid #1dde85;
   color: #1dde85;
   outline: none;
 }
-main .main_container .portfolio .works {
+main .portfolio .works {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-main .main_container .portfolio .works .work {
+main .portfolio .works .work {
   display: none;
-  /* Hide all elements by default */
   margin-bottom: 48px;
 }
-main .main_container .portfolio .works .work img {
+main .portfolio .works .work img {
   width: 100%;
 }
-main .main_container .portfolio .works .show {
+main .portfolio .works .show {
   display: block;
 }
-main .main_container .portfolio a.button {
+main .portfolio a.button {
   background-color: #1dde85;
   text-decoration: none;
   color: white;
   padding: 16px 60px;
   font-size: 18px;
 }
-main .main_container .portfolio a.button:hover {
+main .portfolio a.button:hover {
   background-color: #a7a6a2;
 }
-main .main_container .price {
+main .price {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /*color: #a7a6a2;*/
   font-size: 14px;
 }
-main .main_container .price .prices {
+main .price .prices {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -287,7 +281,7 @@ main .main_container .price .prices {
   width: 100%;
   margin: 12px 0;
 }
-main .main_container .price .prices .price_card {
+main .price .prices .price_card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,59 +289,61 @@ main .main_container .price .prices .price_card {
   color: #a7a6a2;
   padding-bottom: 20px;
 }
-main .main_container .price .prices .price_card:hover {
+main .price .prices .price_card:hover {
   outline: 1px solid #1dde85;
   color: #1dde85;
   cursor: pointer;
 }
-main .main_container .price .prices .price_card:hover .order {
+main .price .prices .price_card:hover .order {
   border: 1px solid #1dde85;
   background-color: #1dde85;
   cursor: pointer;
   color: #fff;
 }
-main .main_container .price .prices .price_card:hover .cost {
+main .price .prices .price_card:hover .cost {
   outline: 1px solid #1dde85;
   background-color: #1dde85;
   color: #fff;
   border-color: #1dde85;
   cursor: pointer;
 }
-main .main_container .price .prices .price_card:hover .price_name {
+main .price .prices .price_card:hover .price_name {
   color: #1dde85;
 }
-main .main_container .price .prices .price_card p {
+main .price .prices .price_card p {
   margin: 11px 0;
 }
-main .main_container .price .prices .price_card .cost {
+main .price .prices .price_card .cost {
   color: #000;
   font-size: 14px;
   border: 1px solid #a7a6a2;
   padding: 20px 100px;
 }
-main .main_container .price .prices .price_card .cost span {
+main .price .prices .price_card .cost span {
   font-size: 36px;
   font-weight: bold;
 }
-main .main_container .price .prices .price_card .order {
+main .price .prices .price_card .order {
   border: 1px solid #a7a6a2;
   background-color: transparent;
   padding: 16px;
 }
-main .main_container .message {
+.wrapper_bg {
   background-image: url(../images/bg-footer.jpg);
   background-size: cover;
+  width: 100%;
+}
+main .message {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 8px;
-  width: 100%;
 }
-main .main_container .message h3 {
+main .message h3 {
   color: #fff;
 }
-main .main_container .message form {
+main .message form {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -357,7 +353,7 @@ main .main_container .message form {
   padding: 0;
   color: #fff;
 }
-main .main_container .message form .inputs {
+main .message form .inputs {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -365,7 +361,7 @@ main .main_container .message form .inputs {
   margin: 0;
   color: #fff;
 }
-main .main_container .message form .inputs input {
+main .message form .inputs input {
   width: 396px;
   height: 8px;
   border: 1px solid #b1b1b1;
@@ -374,10 +370,10 @@ main .main_container .message form .inputs input {
   color: #fff;
   background-color: transparent;
 }
-main .main_container .message form .inputs input::placeholder {
+main .message form .inputs input::placeholder {
   color: #b1b1b1;
 }
-main .main_container .message form textarea {
+main .message form textarea {
   max-width: 854px;
   width: 100%;
   height: 212px;
@@ -387,7 +383,7 @@ main .main_container .message form textarea {
   color: #fff;
   resize: none;
 }
-main .main_container .message button {
+main .message button {
   width: 196px;
   background-color: #1dde85;
   border: none;
@@ -396,7 +392,7 @@ main .main_container .message button {
   font-size: 14px;
   margin: 30px 0;
 }
-main .main_container .message button:hover {
+main .message button:hover {
   cursor: pointer;
   background-color: #b1b1b1;
 }
@@ -417,7 +413,7 @@ footer .footer {
   padding: 40px 0;
 }
 footer .footer h4 {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 footer .footer .about {
   width: 320px;
@@ -446,11 +442,8 @@ footer .footer .links .link {
 }
 footer .footer .links .link a {
   width: 100px;
-  /* height: 50px; */
   margin: 0;
   margin-bottom: 20px;
-  /* outline: 1px dotted black; */
-  /* outline-offset: -1px; */
   text-decoration: none;
   color: #8f8e91;
 }
@@ -468,8 +461,9 @@ footer .footer .social_accounts {
   width: 248px;
 }
 footer .footer .social_accounts .social_icons {
-  margin-bottom: 20px;
-  padding: 9px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 footer .footer .social_accounts input {
   width: 230px;
@@ -481,10 +475,14 @@ footer .footer .social_accounts input {
   background-color: transparent;
 }
 footer .footer .social_accounts a {
-  width: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
   border: 2px solid #b1b1b1;
-  padding: 6px;
-  color: #b1b1b1;
+  color: #b1b1b1;  
 }
 footer .footer .social_accounts a:hover {
   color: #1dde85;
