@@ -1,8 +1,64 @@
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('../fonts/Roboto/Roboto-Thin.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto/Roboto-Light.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../fonts/Roboto/Roboto-Black.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Exo-Regular';
+  src: url('../fonts/Exo/Exo-Regular.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Exo-Black';
+  src: url('../fonts/Exo/Exo-Black.ttf') format('TrueType');
+  font-style: normal;
+  font-weight: normal;
+}
+
 body, h1, h2, h3, h4, h5, h6, a, ul, li, p, nav, button {
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
@@ -18,8 +74,9 @@ li {
 }
 h3 {
   font-size: 30px;
-  margin: 80px 0 30px 0;
+  margin: 106px 0 30px 0;
   text-align: center;
+  font-family: 'Roboto-Medium';
 }
 
 header {
@@ -56,6 +113,7 @@ header .main_container .header .burger a {
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 300;
   text-decoration: none;
   margin-right: 42px;
   padding-bottom: 12px;
@@ -78,15 +136,18 @@ header .main_container .main_title {
 }
 header .main_container .main_title h1 {
   font-size: 48px;
+  font-family: 'Exo-Regular';
 }
 header .main_container .main_title h1 span {
   text-transform: uppercase;
+  font-family: 'Exo-Black';
   color: #1dde85;
 }
 header .main_container .main_title h2 {
   font-size: 18px;
   margin-top: 20px;
   text-align: center;
+  font-family: 'Roboto-Light';
 }
 .wrapper {
   display: flex;
@@ -113,6 +174,7 @@ main .services h4 {
   margin: 30px 0;
   text-align: center;
   padding: 0 100px;
+  font-family: 'Roboto-Thin';
 }
 main .services .about_services {
   display: flex;
@@ -134,14 +196,20 @@ main .services .about_services .service:hover {
   border-color: #1dde85;
   cursor: pointer;
 }
+main .services .about_services .service:hover p {
+  color: #454546;
+  cursor: pointer;
+}
 main .services .about_services .service h5 {
   font-size: 24px;
+  font-family: 'Roboto-Medium';
 }
 main .services .about_services .service p {
   font-size: 14px;
   text-align: center;
   margin-top: 44px;
   color: #8f8e91;
+  font-family: 'Roboto-Thin';
 }
 main .team {
   display: flex;
@@ -179,10 +247,18 @@ main .team .photo_team .info_team {
   justify-content: center;
   align-items: center;
 }
-main .team .photo_team .info_team p {
+main .team .photo_team .info_team .name_team {
   font-size: 18px;
+  font-family: 'Roboto-Regular';
   margin: 4px;
 }
+
+main .team .photo_team .info_team .proffesion_team {
+  font-size: 14px;
+  font-family: 'Roboto-Thin';
+  margin: 4px;
+}
+
 main .team .photo_team .overlay {
   position: absolute;
   display: flex;
@@ -229,6 +305,7 @@ main .portfolio #filter .btn {
   background-color: transparent;
   cursor: pointer;
   font-size: 18px;
+  font-family: 'Roboto-Light';
   margin: 0 20px;
 }
 main .portfolio #filter .btn:hover {
@@ -262,6 +339,7 @@ main .portfolio a.button {
   color: white;
   padding: 16px 60px;
   font-size: 18px;
+  font-family: 'Roboto-Light';
 }
 main .portfolio a.button:hover {
   background-color: #a7a6a2;
@@ -288,10 +366,11 @@ main .price .prices .price_card {
   box-sizing: border-box;
   color: #a7a6a2;
   padding-bottom: 20px;
+  margin-right: 16px;
+  margin-bottom: 100px;
 }
 main .price .prices .price_card:hover {
   outline: 1px solid #1dde85;
-  color: #1dde85;
   cursor: pointer;
 }
 main .price .prices .price_card:hover .order {
@@ -312,6 +391,8 @@ main .price .prices .price_card:hover .price_name {
 }
 main .price .prices .price_card p {
   margin: 11px 0;
+  font-size: 14px;
+  font-family: 'Roboto-Thin';
 }
 main .price .prices .price_card .cost {
   color: #000;
@@ -342,6 +423,8 @@ main .message {
 }
 main .message h3 {
   color: #fff;
+  margin: 40px 0 26px 0;
+  text-transform: uppercase;
 }
 main .message form {
   display: flex;
@@ -369,6 +452,9 @@ main .message form .inputs input {
   padding: 20px;
   color: #fff;
   background-color: transparent;
+  font-family: 'Roboto-Thin';
+  font-style: italic;
+  font-size: 14px;
 }
 main .message form .inputs input::placeholder {
   color: #b1b1b1;
@@ -382,15 +468,19 @@ main .message form textarea {
   padding: 20px;
   color: #fff;
   resize: none;
+  font-size: 14px;
+  font-family: 'Roboto-Thin';
+  font-style: italic;
 }
 main .message button {
   width: 196px;
   background-color: #1dde85;
   border: none;
   color: #fff;
-  padding: 20px 0;
+  padding: 20px 38px;
   font-size: 14px;
-  margin: 30px 0;
+  margin: 30px 0 38px 0;
+  font-family: 'Roboto-Thin';
 }
 main .message button:hover {
   cursor: pointer;
@@ -426,6 +516,8 @@ footer .footer .about p {
   margin: 0;
   padding: 0;
   color: #8f8e91;
+  font-size: 14px;
+  font-family: 'Roboto-Thin';
 }
 footer .footer .links {
   width: 248px;
@@ -433,6 +525,8 @@ footer .footer .links {
 footer .footer .links h4 {
   margin: 0;
   margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'Roboto-Regular';
 }
 footer .footer .links .link {
   height: 200px;
@@ -446,6 +540,8 @@ footer .footer .links .link a {
   margin-bottom: 20px;
   text-decoration: none;
   color: #8f8e91;
+  font-size: 14px;
+  font-family: 'Roboto-Thin';
 }
 footer .footer .links .link a:hover {
   text-decoration: underline;
@@ -469,6 +565,7 @@ footer .footer .social_accounts input {
   width: 230px;
   height: 8px;
   font-size: 14px;
+  font-family: 'Roboto-Light';
   padding: 14px 8px;
   border: 1px solid #b1b1b1;
   color: #b1b1b1;
@@ -494,6 +591,7 @@ footer .footer .social_accounts button {
   color: #fff;
   padding: 12px 16px;
   font-size: 14px;
+  font-family: 'Roboto-Light';
   margin: 30px 0;
 }
 footer .footer .social_accounts button:hover {
@@ -501,9 +599,13 @@ footer .footer .social_accounts button:hover {
   background-color: #b1b1b1;
 }
 footer .copyright {
-  color: #fff;
+  color: #8f8e91;
   background-color: #000;
   padding: 30px 0;
   width: 100%;
   text-align: center;
+}
+footer .copyright p {
+  font-size: 14px;
+  font-family: 'Roboto-Regular';
 }
