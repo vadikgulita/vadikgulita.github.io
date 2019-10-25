@@ -662,6 +662,9 @@ footer .copyright {
     flex-flow: wrap;
     justify-content: center;
   }
+  main .price .prices {
+    flex-wrap: wrap;
+  }
   footer .footer .about {
     margin-right: 30px;
   }
@@ -680,9 +683,6 @@ footer .copyright {
   }
   header .main_container .main_title h2 {
     padding: 0 40px;
-  }
-  main .price .prices {
-    flex-wrap: wrap;
   }
   main .message form .inputs {
     justify-content: center;
