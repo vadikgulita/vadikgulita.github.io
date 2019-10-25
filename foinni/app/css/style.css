@@ -514,8 +514,7 @@ footer .main_container .footer .about h4 {
   margin-bottom: 20px;
 }
 footer .main_container .footer .about p {
-  margin: 0;
-  padding: 0;
+  margin-right: 30px;
   color: #8f8e91;
   font-size: 14px;
   font-family: 'Roboto-Thin';
@@ -607,7 +606,15 @@ footer .copyright {
   width: 100%;
   text-align: center;
 }
-
+@media screen and (max-width: 1199px) {
+  header .main_container .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  main .price .prices .price_card {
+    margin-right: 5px;
+  }
+}
 @media screen and (max-width: 968px) {
   header .main_container .header {
     padding-left: 40px;
@@ -667,7 +674,6 @@ footer .copyright {
     margin-right: 30px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   header .main_container .header {
