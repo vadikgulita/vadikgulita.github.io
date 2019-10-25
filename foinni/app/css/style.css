@@ -726,6 +726,9 @@ footer .copyright {
     align-items: center;
     justify-content: center;  
   }
+  main .services h4 {
+    padding: 0 20px;
+  }
   main .services .about_services .service {  
     width: 280px;
   }
