@@ -138,6 +138,7 @@ header .main_container .main_title {
 header .main_container .main_title h1 {
   font-size: 48px;
   font-family: 'Exo-Regular';
+  text-align: center;
 }
 header .main_container .main_title h1 span {
   text-transform: uppercase;
@@ -186,7 +187,7 @@ main .services .about_services .service {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 345px;
+  width: 280px;
   margin: 20px 0;
   border: 1px solid #cac8c5;
   padding: 32px 8px;
@@ -428,7 +429,7 @@ main .message {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 8px;
+  /* padding: 8px; */
 }
 main .message h3 {
   color: #fff;
@@ -454,11 +455,11 @@ main .message form .inputs {
   color: #fff;
 }
 main .message form .inputs input {
-  width: 300px;
+  width: 100%;
   height: 8px;
   border: 1px solid #b1b1b1;
   margin-bottom: 28px;
-  padding: 20px;
+  padding: 20px 0;
   color: #fff;
   background-color: transparent;
   font-family: 'Roboto-Thin';
@@ -474,7 +475,7 @@ main .message form textarea {
   height: 212px;
   margin: 0;
   background-color: transparent;
-  padding: 20px;
+  padding: 20px 0;
   color: #fff;
   resize: none;
   font-size: 14px;
@@ -516,19 +517,25 @@ footer .main_container .footer h4 {
 }
 footer .main_container .footer .about {
   width: 320px;
+  /* display: flex; */
+  text-align: center;
+  /* margin: 0 30px; */
 }
 footer .main_container .footer .about h4 {
   margin: 0;
   margin-bottom: 20px;
 }
 footer .main_container .footer .about p {
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  /* margin-left: 30px; */
   color: #8f8e91;
   font-size: 14px;
   font-family: 'Roboto-Thin';
+  margin: 0 30px;
 }
 footer .main_container .footer .links {
   width: 248px;
+  text-align: center;
 }
 footer .main_container .footer .links h4 {
   margin: 0;
@@ -558,6 +565,7 @@ footer .main_container .footer .links .link a:hover {
 
 footer .main_container .footer .social_accounts {
   width: 248px;
+  text-align: center;
 }
 footer .main_container .footer .social_accounts .social_icons {
   display: flex;
@@ -693,6 +701,11 @@ footer .copyright {
   }
   footer .main_container .footer {
     flex-direction: column;
+    /* padding: 0 20px; */
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    align-items: center;
+    justify-content: center;
   }
   footer .footer .about {
     margin-right: 0;
@@ -701,7 +714,11 @@ footer .copyright {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 700px) {
+  h1 {
+    padding: 0 20px;
+  }
   main .portfolio #filter {
     display: flex;
     flex-direction: row;
@@ -709,4 +726,23 @@ footer .copyright {
     align-items: center;
     justify-content: center;  
   }
+  main .services .about_services .service {  
+    width: 280px;
+  }
+  footer .main_container .footer {
+    align-items: center;
+    justify-content: center;  
+  }
+  footer .main_container .footer .about {
+    text-align: center;
+  }
+  footer .main_container .footer .about p {
+    margin: 0 30px;
+  }
+  footer .main_container .footer .links {
+  text-align: center;   
+  }
+  footer .main_container .footer .social_accounts {
+  text-align: center;   
+  } 
 }
