@@ -606,16 +606,8 @@ footer .copyright {
   width: 100%;
   text-align: center;
 }
+
 @media screen and (max-width: 1199px) {
-  header .main_container .header {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  main .price .prices .price_card {
-    margin-right: 5px;
-  }
-}
-@media screen and (max-width: 968px) {
   header .main_container .header {
     padding-left: 40px;
     padding-right: 40px;
