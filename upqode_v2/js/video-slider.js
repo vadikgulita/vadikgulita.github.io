@@ -114,8 +114,9 @@ $(window).on("resize.slickVideoPlayer", function(){
   resizePlayer(iframes, 16/9);
 });
 
-$('.main-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    $('.embed-player').each(function(){
-        this.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*')
-    });
+$(".main-slider").on("click", ".slick-prev, .slick-next", function(){
+	canSlide = true;
+	$('.main-slider iframe').each(function(){
+	    $(this).data('player').pauseVideo();
+	});
 });
