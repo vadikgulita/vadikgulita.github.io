@@ -113,10 +113,3 @@ $(function() {
 $(window).on("resize.slickVideoPlayer", function(){  
   resizePlayer(iframes, 16/9);
 });
-
-$(".main-slider").on("click", ".slick-prev, .slick-next", function(){
-	canSlide = true;
-	$('.main-slider iframe').each(function(){
-	    $(this).data('player').pauseVideo();
-	});
-});
