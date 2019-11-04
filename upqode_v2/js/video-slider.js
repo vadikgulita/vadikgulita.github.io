@@ -1,4 +1,4 @@
-/*Downloaded from https://www.codeseek.co/m2mcreation/slick-slider-with-auto-play-youtube-vimeo-and-html5-video-mXwNPw */
+
 var slideWrapper = $(".main-slider"),
     iframes = slideWrapper.find('.embed-player'),
     lazyImages = slideWrapper.find('.slide-image'),
@@ -69,9 +69,7 @@ function resizePlayer(iframes, ratio) {
   });
 }
 
-// DOM Ready
 $(function() {
-  // Initialize
   slideWrapper.on("init", function(slick){
     slick = $(slick.currentTarget);
     setTimeout(function(){
@@ -91,13 +89,12 @@ $(function() {
     lazyCounter++;
     if (lazyCounter === lazyImages.length){
       lazyImages.addClass('show');
-      // slideWrapper.slick("slickPlay");
+      slideWrapper.slick("slickPlay");
     }
   });
 
-  //start the slider
   slideWrapper.slick({
-    // fade:true,
+    fade:false,
     autoplaySpeed:4000,
     lazyLoad:"progressive",
     speed:600,
@@ -107,9 +104,16 @@ $(function() {
   });
 });
 
-
-// Resize event
-
 $(window).on("resize.slickVideoPlayer", function(){  
   resizePlayer(iframes, 16/9);
+});
+
+
+$('.slick-next, .slick-prev').click(function () {
+  var mediaVideo = $(".main-slider").get(0);
+  if (mediaVideo.paused) {
+      mediaVideo.play();
+  } else {
+      mediaVideo.pause();
+ }
 });
