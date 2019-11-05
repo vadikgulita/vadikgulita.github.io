@@ -108,7 +108,6 @@ $(window).on("resize.slickVideoPlayer", function(){
   resizePlayer(iframes, 16/9);
 });
 
-
 $('.slick-next, .slick-prev').click(function () {
   var mediaVideo = $(".main-slider").get(0);
   if (mediaVideo.paused) {
