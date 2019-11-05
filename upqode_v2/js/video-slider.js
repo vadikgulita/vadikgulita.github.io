@@ -67,7 +67,6 @@ function resizePlayer(iframes, ratio) {
   });
 }
 
-// Initialize
 $(function() {
   slideWrapper.on("init", function(slick){
     slick = $(slick.currentTarget);
@@ -88,7 +87,7 @@ $(function() {
     lazyCounter++;
     if (lazyCounter === lazyImages.length){
       lazyImages.addClass('show');
-      // slideWrapper.slick("slickPlay");
+      slideWrapper.slick("slickPlay");
     }
   });
 
@@ -102,8 +101,6 @@ $(function() {
     cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)"
   });
 });
-
-// Resize event
 
 $(window).on("resize.slickVideoPlayer", function(){  
   resizePlayer(iframes, 16/9);
