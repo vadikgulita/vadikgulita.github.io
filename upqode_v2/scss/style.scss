@@ -430,10 +430,10 @@ footer {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 3px;
-      }
-      &:hover {
-        text-decoration: underline;
-        color: $white;
+        &:hover {
+          text-decoration: underline;
+          color: $white;
+        }
       }
     }
   }

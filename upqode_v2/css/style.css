@@ -536,7 +536,7 @@ footer .nav-links .nav-links__item a {
   letter-spacing: 3px;
 }
 
-footer .nav-links .nav-links__item:hover {
+footer .nav-links .nav-links__item a:hover {
   text-decoration: underline;
   color: #fff;
 }
