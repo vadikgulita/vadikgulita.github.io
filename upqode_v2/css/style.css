@@ -243,6 +243,10 @@ header .active-head {
   border: none;
 }
 
+.caption button:hover {
+  color: #222222;
+}
+
 .slick-dots {
   text-align: center;
   padding-top: 15px;
@@ -360,6 +364,11 @@ header .active-head {
   vertical-align: middle;
 }
 
+.main-content .main-content__text button:hover {
+  background-color: #00A031;
+  color: #fff;
+}
+
 .main-content .main-content__image {
   background-image: url(../images/oval.png);
   background-repeat: no-repeat;
@@ -455,6 +464,10 @@ header .active-head {
   color: #6C6C6C;
 }
 
+.slider-team .slider-team__item .flex ul .social-item:hover {
+  color: #00A031;
+}
+
 .slider-team .button_prev {
   margin-top: 36px;
   position: relative;
@@ -521,6 +534,11 @@ footer .nav-links .nav-links__item a {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 3px;
+}
+
+footer .nav-links .nav-links__item:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 footer .copyright {

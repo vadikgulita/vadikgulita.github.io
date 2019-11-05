@@ -199,6 +199,9 @@ header {
     letter-spacing: 0.1px;
     color: #F4FBF6;
     border: none;
+    &:hover {
+      color: #222222;
+    }
   }
 }
 .slick-dots {
@@ -295,6 +298,10 @@ header {
       img {
         vertical-align: middle;
       }
+      &:hover {
+        background-color: $green; 
+        color: $white;
+      }
     }
   }
   .main-content__image {
@@ -366,6 +373,9 @@ header {
             text-transform: uppercase;
             color: #6C6C6C;
           }
+          &:hover {
+            color: $green;
+          }
         }
       }
     }
@@ -420,6 +430,10 @@ footer {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 3px;
+      }
+      &:hover {
+        text-decoration: underline;
+        color: $white;
       }
     }
   }

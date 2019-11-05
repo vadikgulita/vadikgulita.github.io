@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#menu").on("click","a", function (event) {
+    $(".nav-links").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
@@ -8,8 +8,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#menu").on("click","li", function () {
-        $("#menu li.active").removeClass("active");
+    $(".nav-links").on("click","li", function () {
+        $(".nav-links li.active").removeClass("active");
         $(this).addClass("active");
     });
 });
@@ -17,10 +17,10 @@ $(document).ready(function(){
 $(window).scroll(function() {
     var scrollDistance = $(window).scrollTop();
     $('.page-section').each(function(i) {
-            if ($(this).position().top <= scrollDistance) {
-                    $('#menu li.active').removeClass('active');
-                    $('#menu li').eq(i).addClass('active');
-            }
+        if ($(this).position().top <= scrollDistance) {
+            $('.nav-links li.active').removeClass('active');
+            $('.nav-links li').eq(i).addClass('active');
+        }
     });
 }).scroll();
 
