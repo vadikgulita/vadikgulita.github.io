@@ -1,4 +1,3 @@
-
 var slideWrapper = $(".main-slider"),
     iframes = slideWrapper.find('.embed-player'),
     lazyImages = slideWrapper.find('.slide-image'),
@@ -10,7 +9,6 @@ function postMessageToPlayer(player, command){
   player.contentWindow.postMessage(JSON.stringify(command), "*");
 }
 
-// When the slide is changing
 function playPauseVideo(slick, control){
   var currentSlide, slideType, startTime, player, video;
 
