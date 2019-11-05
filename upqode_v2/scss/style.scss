@@ -218,20 +218,15 @@ header {
       border: none;
       cursor: pointer;
       border-radius: 50%;
-      // border: 2px solid $white;
-      // box-shadow: 0 0 0 0 transparent;
       vertical-align: middle;
-      // color: $white;
       background-color: $white;
       transition: all .3s ease;
-      // opacity: .4;
       &:focus {
         outline: none;
       }
       // &:hover {
       //   opacity: 1;
       // }
-      
     }
     &.slick-active {
       button {
@@ -320,7 +315,6 @@ header {
   height: 792px;
   overflow: hidden;
   box-sizing: border-box;
-  
   .slider-team__item{
     position: absolute;
     display: none;
@@ -375,7 +369,6 @@ header {
         }
       }
     }
-    
   }
 
   .button_prev {
@@ -407,7 +400,6 @@ header {
   .active{
     display: block;
   }
-
 }
 
 footer {
@@ -420,7 +412,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin-top: 54px;
-    
     .nav-links__item {
       margin-left: 20px;
       a {
