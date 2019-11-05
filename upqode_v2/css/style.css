@@ -54,6 +54,14 @@ header {
 }
 
 header nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+header nav .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,11 +71,6 @@ header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 26px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
 }
 
 header nav ul li {
@@ -91,6 +94,10 @@ header nav ul li a:hover {
 
 header nav ul .active {
   text-decoration: underline;
+}
+
+header .active-head {
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .main-slider {

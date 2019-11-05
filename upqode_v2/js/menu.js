@@ -23,3 +23,11 @@ $(window).scroll(function() {
             }
     });
 }).scroll();
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $("header nav").addClass("active-head");
+    } else {
+       $("header nav").removeClass("active-head");
+    }
+});
