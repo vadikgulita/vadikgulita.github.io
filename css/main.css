@@ -1,0 +1,627 @@
+body {
+	background: #E9E5E2;
+	font-family: 'Gochi Hand', cursive;
+}
+
+body, div, nav, p, span, a, ul, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+button:focus {
+	border: none;
+	outline: none;
+}
+
+a:focus {
+	border: none;
+	outline: none;
+}
+li {
+	list-style-type: none;
+}
+
+#container {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 10px;
+	position:relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+/*---profile---*/
+.profile {
+	width: 20%;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.profile__photo {
+	background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile__photo img {
+	width: 80%;
+}
+
+h1 {
+	font-size: 36px;
+	color:#0f74bc;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.profile-contact {
+	margin-top: 20px;
+}
+
+.profile-contact a {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.profile-contact img {
+	width: 10%;
+	margin-right: 10px;
+}
+
+.profile-download {
+	margin-top: 30px;
+}
+
+.profile .download {
+	padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #0f74bc;
+    font-family: inherit;
+}
+
+.profile .download:hover {
+	cursor: pointer;
+	background-color: #000;
+}
+
+/*---navigation---*/
+
+.wrapper-content {
+	width: 85%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+nav a {
+	text-align: center;
+}
+
+.logo {
+	width: 50%;
+}
+
+#menu {
+	margin: 20px;
+	display: flex;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 4px;
+}
+/*---main---*/
+.main {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.main-box {
+	font-size: 20px;
+    background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius:20px;
+	overflow: hidden;
+	margin: 10px;
+	width: 100%;
+}
+.main-box p {
+	line-height: 40px;
+}
+
+.main-box p span {
+	font-size: 30px;
+	color: #0f74bc;
+}
+
+.w60 {
+	width: 60%;
+}
+.w40 {
+
+	width: 40%;
+}
+.w100 {
+	width: 100%;
+}
+
+.main-box ul li {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.main-box ul li span {
+	background-color: #0f74bc;
+	color: #fff;
+	border-radius: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.hobbies-list {
+	display: flex;
+
+}
+.hobbies-list img {
+	width: 50px;
+}
+
+
+/*---content---*/
+
+h3 {
+	color:#0f74bc;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+/*---skills---*/
+
+.skills {
+	display: flex;
+    align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.skills-wrapper {
+	width: 50%;
+}
+
+.soft-skills {
+	margin-right: 10px;
+}
+
+.skill-box {
+    font-size: 20px;
+    padding: 10px;
+	border-radius:20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.skill-bar {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 10px auto;
+}
+
+.skill {
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	position: absolute;
+}
+
+.skill-name {
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.skill-percent {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+}
+
+/*--soft skills--*/
+
+#html {
+    width: 75%;
+    animation: Animate-HTML 4s;
+    background-color: #14c0cf;
+}
+
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+
+#css {
+	width: 65%;
+    animation: Animate-CSS 5s;
+    background-color: #479cb9;
+}
+
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+
+#bootstrap {
+	width: 40%;
+	animation: Animate-Bootstrap 4s;
+	background-color: #2f3a72;
+}
+
+@keyframes Animate-Bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+
+#jquery {
+    width: 40%;
+	animation: Animate-jQuery 5s;
+	
+	background-color: #14c0cf;
+}
+
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+
+#js {
+	width: 30%;
+	animation: Animate-JS 4s;
+    background-color: #479cb9;
+}
+
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+
+#sass {
+    width: 50%;
+	animation: Animate-Sass 4s;
+	background-color: #2f3a72;
+}
+
+@keyframes Animate-Sass {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#git {
+    width: 50%;
+	animation: Animate-Git 4s;
+	background-color: #14c0cf;
+}
+
+@keyframes Animate-Git {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#gulp {
+    width: 50%;
+	animation: Animate-Gulp 4s;
+	background-color: #479cb9;
+}
+
+@keyframes Animate-Gulp {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+/*--personal skills--*/
+
+#communication {
+    width: 80%;
+	background-color: #14c0cf;
+	animation: Animate-Communication 4s;
+}
+
+@keyframes Animate-Communication {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+
+#teamwork {
+	width: 70%;
+	background-color: #479cb9;
+	animation: Animate-Teamwork 4s;
+}
+
+@keyframes Animate-Teamwork {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+#problem-solving {
+	width: 65%;
+	background-color: #2f3a72;
+	animation: Animate-Problem-Solving 4s;
+}
+
+@keyframes Animate-Problem-Solving {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+
+#time-management {
+	width: 70%;
+	background-color: #14c0cf;
+	animation: Animate-Time-Managment 4s;
+}
+
+@keyframes Animate-Time-Managment {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+#detail {
+	width: 70%;
+	background-color: #479cb9;
+	animation: Animate-Detail 4s;
+}
+
+@keyframes Animate-Detail {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+#eager {
+	width: 70%;
+	background-color: #2f3a72;
+	animation: Animate-Eager 4s;
+}
+
+@keyframes Animate-Eager {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+/*--language skills--*/
+
+#ukrainian {
+    width: 99%;
+	background-color: #000;
+	animation: Animate-Ukrainian 4s;
+}
+
+@keyframes Animate-Ukrainian {
+    from {
+    width: 10px;
+}
+to {
+    width: 99%}
+}
+
+#russian {
+    width: 70%;
+	background-color: #000;
+	animation: Animate-Russian 5s;
+}
+
+@keyframes Animate-Russian {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+
+#english {
+    width: 49%;
+	background-color: #000;
+	animation: Animate-English 5s;
+}
+
+@keyframes Animate-English {
+    from {
+    width: 10px;
+}
+to {
+    width: 49%}
+}
+
+/*---education---*/
+
+.education {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.education-box {
+	background-color: #fff;
+    padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.education span {
+	font-size: 16px;
+	color: #0c9dc1;
+}
+
+.education p {
+	font-size: 20px;
+}
+
+/*---experience---*/
+.experience {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.experience-box {
+	background-color: #fff;
+    padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.experience span {
+	font-size: 16px;
+	color: #0c9dc1;
+}
+
+.experience p {
+	font-size: 20px;
+}
+
+/*---portfolio---*/
+.portfolio {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.portfolio-box {
+	width: 40%;
+	background-color: #fff;
+    padding: 10px;
+	border-radius: 20px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.portfolio-box img {
+	width: 100%;
+}
+
+.portfolio-box-button {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(14, 166, 236, 0.9);
+	border-radius: 20px;
+	transition: 0.3s;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-box ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-box ul li {
+	padding: 0 5px;
+}
+
+.portfolio-box ul li img {
+	width: 40px;
+}
+
+.portfolio-box-button a {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #0c9dc1;
+	border-radius: 20px;
+	/* transition: width 2ms; */
+}
+
+.portfolio-box:hover .portfolio-box-button  {
+	display: flex;
+}
