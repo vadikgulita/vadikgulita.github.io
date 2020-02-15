@@ -23,6 +23,8 @@ li {
 .header__top-wrapper {
 	display: flex;
 	width: 100%;
+	font-size: 20px;
+	color: #000;
 }
 .header-logo {
 	margin-top: -80px;
@@ -38,11 +40,9 @@ li {
 	background-color: #fbf3dd;
 	justify-content: space-between;
 	height: 80px;
-	font-size: 20px;
 	line-height: 24px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #000;
 }
 .header-menu__top-left {
 	display: flex;
@@ -63,7 +63,6 @@ li {
 }
 .header-menu__timetable {
 	margin-left: 60px;
-	
 }
 .header-menu__languages {
 	margin-left: 60px;
@@ -104,7 +103,6 @@ li {
 	display: flex;
 	color: #fff;
 	font-weight: bold;
-	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
 }
@@ -163,7 +161,7 @@ h1 {
 }
 .banner p {
 	width: 600px;
-	font-family: Neucha;
+	font-family: "Neucha", cursive;
 	font-size: 40px;
 	line-height: 44px;
 	text-transform: uppercase;
@@ -192,6 +190,7 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	color: #000;
 }
 .about-box__left {
 	width: 50%;
@@ -207,8 +206,8 @@ h1 {
 .about-box__image {
 	width: 100px;
 	height: 100px;
-	background: #ffffff;
-	border: 3px solid #000000;
+	background: #fff;
+	border: 3px solid #000;
 	box-sizing: border-box;
 	border-radius: 50%;
 	align-items: center;
@@ -220,7 +219,6 @@ h1 {
 	max-width: 150px;
 	font-size: 16px;
 	line-height: 19px;
-	color: #000;
 }
 .about-box__right {
 	width: 50%;
@@ -231,7 +229,6 @@ h3 {
 	font-size: 36px;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #000;
 	text-align: center;
 }
 h4 {
@@ -241,14 +238,12 @@ h4 {
 	font-size: 36px;
 	line-height: 40px;
 	text-transform: uppercase;
-	color: #000;
 	text-align: center;
 }
 .about-box__right p {
 	max-width: 560px;
 	font-size: 16px;
 	line-height: 19px;
-	color: #000;
 }
 /*product*/
 #slider1 .owl-item {
@@ -340,6 +335,7 @@ h4 {
 .stock__wrapper {
 	display: flex;
 	margin-bottom: 150px;
+	color: #000;
 }
 .stock__item-content {
 	width: 270px;
@@ -365,7 +361,6 @@ h4 {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 24px;
-	color: #000;
 	margin-top: 10px;
 }
 .stock__item-content button {
@@ -378,7 +373,6 @@ h4 {
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
-	color: #000;
 }
 /*profit*/
 .profit {
@@ -418,7 +412,6 @@ h4 {
 }
 /*consumers*/
 .consumers {
-	
 	display: flex;
 	padding: 150px 0;
 }
@@ -506,9 +499,10 @@ h4 {
 	position: relative;
 	height: 350px;
 	color: #fff;
+	font-size: 22px;
+	text-align: center;
 }
 .review h3 {
-	color: #fff;
 	padding-top: 70px;
 	padding-bottom: 20px;
 }
@@ -520,19 +514,13 @@ h4 {
 }
 .review-slider__text {
 	font-style: italic;
-	font-size: 22px;
 	line-height: 26px;
-	text-align: center;
-	color: #fff;
 	max-width: 800px;
 	margin-bottom: 10px;
 }
 .review-slider__name {
 	font-weight: bold;
-	font-size: 22px;
 	line-height: 26px;
-	text-align: center;
-	color: #fff;
 }
 #review-slider .owl-dots {
 	display: flex;
@@ -923,17 +911,16 @@ h4 {
 	} 
 	.review {
 		height: 300px;
+		font-size: 20px;
 	}
 	.review h3 {
 		padding-top: 50px;
 		padding-bottom: 25px;
 	}
 	.review-slider__text {
-		font-size: 20px;
 		line-height: 24px;
 	}
 	.review-slider__name {
-		font-size: 20px;
 		line-height: 24px;
 	}
 	.review-dots li button {
@@ -1102,6 +1089,9 @@ h4 {
 }
 
 @media (max-width: 768px) {
+	.product-slider__item-content {
+		margin: 0;
+	}
 	.consumers__wrapper {
 		flex-direction: column;
 	}
@@ -1201,6 +1191,9 @@ h4 {
 		max-width: 100%;
 		font-size: 14px;
 		line-height: 17px;
+	}
+	.about-box__image {
+		border: 1px solid #000;
 	}
 	.product h3 {
 		margin-top: 50px;
@@ -1310,5 +1303,8 @@ h4 {
 	}
 	.conditions-box__left, .conditions-box__right {
 		width: 280px;
+	}
+	.review {
+		font-size: 16px;
 	}
 }
