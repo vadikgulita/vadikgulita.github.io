@@ -472,7 +472,6 @@ h4 {
 	width: 50%;
 	margin-right: 20px;
 }
-
 .conditions-box__right {
 	width: 50%;
 }
@@ -547,7 +546,6 @@ h4 {
 .review .review-slider {
 	display: flex;
 }
-
 /*footer*/
 .footer {
 	background-color: #3b200f;
@@ -729,6 +727,7 @@ h4 {
 		padding: 0;
 	}
 }
+
 @media (max-width: 1024px) {
 	.header-menu__top {
 		height: 60px;
