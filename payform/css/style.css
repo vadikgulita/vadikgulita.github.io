@@ -1,0 +1,193 @@
+body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+.header {
+    height: 48px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    justify-content: flex-start;
+}
+.tablet {
+    justify-content: flex-end;
+}
+/*indicator*/
+.indicators {
+    background-color: #F8F8F8;
+    height: 96px;
+}
+.indicators-content {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+.indicator {
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.indicator-element {
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    border: 1px solid #B3B3B3;
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    line-height: 21px;
+    float: left;
+    margin: 0 50px;
+    background-color: #B3B3B3;
+}
+.indicator .left-border, .indicator .right-border {
+    position: relative;
+    top: 14px;
+    width: 270px;
+    border-bottom: solid 2px #d6d6d6;
+    float: left;
+}
+.active .indicator-name {
+    color: #30D06C;
+}
+.indicator-name {
+    padding-top: 4px;
+    color: #B3B3B3;
+    text-align: center;
+}
+.indicator.active .indicator-element {
+    background: #30D06C;
+    color: #fff;
+    border: none;
+}
+.clearfix {
+    background: transparent;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+.main-info {
+    margin: 64px 0;
+} 
+.card img {
+    width: 68px;
+}
+
+.line {
+    border-bottom: 1px solid #F1F1F1;
+    
+}
+.products-info-box {
+    box-shadow: 0px 0px 16px #D8D8D8;
+    padding: 24px;
+}
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #535878;
+}
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #9D185F;
+    text-align: center;
+}
+.corporate-block label {
+    padding: 20px 0 24px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #808080;
+    
+}
+.corporate-block input[type=checkbox] {
+    margin-right: 8px;
+}
+.price {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 8px;
+    text-align: center;
+}
+.price span {
+    font-size: 32px;
+    line-height: 48px;
+}
+.price-details {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.price-info {
+    text-align: left;
+}
+.price-info-title {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #808080;
+}
+.price-info-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+}
+.price-description {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #808080;
+    padding: 32px 0;
+}
+.company-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company-info img {
+    width: 35%;
+}
+.input p {
+    color: #4A4A4A;
+}
+.prev {
+    font-weight: bold;
+    
+    color: #4A4A4A;
+}
+.submit {
+    margin-top: 40px;
+}
+.submit button[type=submit] {
+    width: 100%;
+    background-color: #30D06C;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.card-security {
+    margin-top: 8px;
+}

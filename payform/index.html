@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayForm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <form class="form">
+        <header class="header flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6 logo flex">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 tablet flex">
+                        <img src="images/mark.png" alt="">
+                        <img src="images/blue.png" alt="">
+                        <img src="images/mail.png" alt="">
+                        <img src="images/call.png" alt="">
+                        <img src="images/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="indicators flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6">
+                        <div class="indicators-content clearfix">
+                            <div class="indicator">
+                                <div class="indicator-button">
+                                    <div class="indicator-element">1</div>
+                                </div>
+                                <div class="indicator-name">Choose Plan</div>
+                            </div>
+                            <div class="indicator">
+                                <div class="indicator-button">
+                                    <div class="left-border"></div>
+                                    <div class="indicator-element">2</div>
+                                    <div class="right-border"></div>
+                                </div>
+                                <div class="indicator-name">Add Seats</div>
+                            </div>
+                            <div class="indicator active">
+                                <div class="indicator-button">
+                                    <div class="indicator-element">3</div>
+                                </div>
+                                <div class="indicator-name">Purchase</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="main-info flex">
+            <div class="container">
+                <div class="row flex align-items-start">
+                    <div class="col-md-4 order-md-last order-sm-first">
+                        <div class="products-info-box">
+                            <h3>Basic Studio</h3>
+                            <div class="price line">
+                                <span>$240</span> / billed annualy
+                            </div>
+                            <div class="price-details">
+                                5 USD x 4 students x 12 month
+                            </div>
+                            <div class="row price-info line">
+                                <div class="col-sm-6">
+                                    <p class="price-info-title">Payment per seat</p>
+                                    <p class="price-info-text">$5 /month</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="price-info-title">Student Seats</p>
+                                    <p class="price-info-text">4 Students</p>
+                                </div>
+                            </div>
+                            <div class="line price-description">
+                                You’ll be charged $240 yearly until you cancel the subscription. For support, send us an email to
+                                <a href="#">info@musico.io</a>  
+                            </div>
+                            <div class="company-info">
+                                <span>Payment per seat</span>
+                                <img src="images/aliexpress_logo.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-block clearfix">
+                            <div class="personal-info">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2>Billing information</h2>
+                                    </div>
+                                </div>
+                                <div class="personal-inner">
+                                    <div class="business-block">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <div class="corporate-block">
+                                                    <div class="checkbox">
+                                                        <label><input type="checkbox" value="True" id="corporate">Business Purchase</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <div class="form-group">
+                                                    <div class="input">
+                                                        <p>Business Name</p>
+                                                        <input type="text" class="form-control form-control-sm" id="company">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <div class="form-group email-block">
+                                                <div class="input">
+                                                    <p>Email Address</p>
+                                                    <input type="text" class="form-control form-control-sm" id="email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="form-group firstname-block">
+                                                <div class="input">
+                                                    <p>First Name</p>
+                                                    <input type="text" class="form-control form-control-sm" id="firstname">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="form-group lastname-block">
+                                                <div class="input">
+                                                    <p>Last Name</p>
+                                                    <input type="text" class="form-control form-control-sm" id="lastname">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="form-group street-block ">
+                                                <div class="input">
+                                                    <p>Street</p>
+                                                    <input type="text" class="form-control form-control-sm" id="address">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="form-group house-block ">
+                                                <div class="input">
+                                                    <p>House no.</p>
+                                                    <input type="text" class="form-control form-control-sm" id="address">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm ">
+                                            <div class="form-group city-block ">
+                                                <div class="input">
+                                                    <p>City</p>
+                                                    <input type="text" class="form-control form-control-sm" id="city">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="form-group zip-block ">
+                                                <div class="input">
+                                                    <p>Zip Code</p>
+                                                    <input type="text" class="form-control form-control-sm" id="zip">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <div class="form-group country-block">
+                                                <div class="input">
+                                                    <p>Country</p>
+                                                    <select class="form-control form-control-sm select" id="country">
+                                                        <option value="BR" alt="BR">Brazil</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <div class="form-group state-block">
+                                                <div class="input">
+                                                    <p>State</p>
+                                                    <select class="form-control form-control-sm select" id="country">
+                                                        <option value="RIO" alt="RIO">Rio de Janeiro</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm ">
+                                            <div class="form-group fiscal-number-block">
+                                                <div class="input">
+                                                    <p>Fiscal number (CPF)</p>
+                                                    <input type="text" class="form-control form-control-sm" id="cpf">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="form-group zip-block ">
+                                                <div class="input">
+                                                    <p>Fiscal number (CNPJ)</p>
+                                                    <input type="text" class="form-control form-control-sm" id="cnpj">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-info">
+                                <div class="card-number">
+                                    <img src="images/visamastercard.png" alt="">
+                                    <p>Card Number</p>
+                                    <input type="text" class="form-control form-control-lg" id="card">
+                                </div>
+                                <div class="card-security">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group expdate-block ">
+                                                <div class="col-sm-6 float-left ">
+                                                    <div class="input">
+                                                        <p>MM</p>
+                                                        <select class="form-control form-control-sm select" id="ed_month">
+                                                            <option value="1">01</option>
+                                                            <option value="2">02</option>
+                                                            <option value="3">03</option>
+                                                            <option value="4">04</option>
+                                                            <option value="5">05</option>
+                                                            <option value="6">06</option>
+                                                            <option value="7">07</option>
+                                                            <option value="8">08</option>
+                                                            <option value="9">09</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 float-left">
+                                                    <div class="input">
+                                                        <p>YY</p>
+                                                        <select class="form-control form-control-sm select" id="ed_year">
+                                                            <option value="2020">20</option>
+                                                            <option value="2021">21</option>
+                                                            <option value="2022">22</option>
+                                                            <option value="2023">23</option>
+                                                            <option value="2024">24</option>
+                                                            <option value="2025">25</option>
+                                                            <option value="2026">26</option>
+                                                            <option value="2027">27</option>
+                                                            <option value="2028">28</option>
+                                                            <option value="2029">29</option>
+                                                            <option value="2030">30</option>
+                                                            <option value="2031">31</option>
+                                                            <option value="2032">32</option>
+                                                            <option value="2033">33</option>
+                                                            <option value="2034">34</option>
+                                                            <option value="2035">35</option>
+                                                            <option value="2036">36</option>
+                                                            <option value="2037">37</option>
+                                                            <option value="2038">38</option>
+                                                            <option value="2039">39</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group security-block">
+                                                <div class="col-lg-12">
+                                                        <div class="input">
+                                                            <p>Security Code</p>
+                                                            <input type="text" class="form-control form-control-sm" id="cv">
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="coupon">
+                                <p>Coupon Code</p>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <input type="text" id="coupon_code" class="form-control form-control-sm">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-default btn-sm btn-primary" type="submit">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="submit flex">
+                                <div class="col-sm-3">
+                                    <button class="prev">< Back</button>
+                                </div>
+                                <div class="col-sm-9">
+                                    <button type="submit" name="submit-button" value="True" class="btn btn-primary btn-lg">
+                                        <img src="images/Shape.png" alt="">
+                                        Submit Purchase</button>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+</body>
+
+</html>
