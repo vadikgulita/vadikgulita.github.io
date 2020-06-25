@@ -314,7 +314,7 @@ h2.vertical {
 .description {
   font-size: 36px;
   line-height: 54px;
-  width: 700px;
+  /* width: 700px; */
 }
 
 /*portfolio*/
